@@ -1,0 +1,14 @@
+dzien,godz,czas,przedmiot,grupa,nauczyciel,sala,typ,uwagi,dataod,datado
+Poniedziałek,8,3,"Podstawy matematyki","fizyka: I rok","dr Joanna Gondek, prof. UG",2.13,ćwiczenia,"zajęcia do 9 XI",2026-10-05,2026-11-09
+Poniedziałek,8,3,Mechanika,"fizyka: I rok","dr Joanna Gondek, prof. UG",2.13,wykład,"zajęcia od 16 XI",2026-11-16,2027-01-25
+Poniedziałek,13,3,"Opracowanie danych pomiarowych","fizyka: I rok gr. 2","dr Justyna Barzowska",A102,laboratorium,13.30-16.00,2026-10-05,2027-01-25
+Wtorek,8,3,"Podstawy matematyki","fizyka: I rok","dr hab. Adam Rutkowski, prof. UG",2.16,ćwiczenia,"zajęcia od 10 XI",2026-11-10,2027-01-26
+Wtorek,8,3,"Podstawy matematyki","fizyka: I rok","dr Joanna Gondek, prof. UG",2.13,ćwiczenia,"zajęcia do 3 XI",2026-10-06,2026-11-03
+Wtorek,11,3,Programowanie,"fizyka: I rok","dr inż. Krzysztof Dorywalski+dr Sławomir Werbowy",A015,laboratorium,,2026-10-06,2027-01-26
+Środa,8,3,Mechanika,"fizyka: I rok","dr Joanna Gondek, prof. UG",2.16,ćwiczenia,"zajęcia od 18 XI",2026-11-18,2027-01-27
+Środa,8,3,"Podstawy matematyki","fizyka: I rok","dr Joanna Gondek, prof. UG",2.16,ćwiczenia,"zajęcia do 4 XI",2026-10-07,2026-11-04
+Środa,11,3,"Podstawy matematyki","fizyka: I rok","dr hab. Adam Rutkowski, prof. UG",2.13,ćwiczenia,"zajęcia od 18 XI",2026-11-18,2027-01-27
+Piątek,8,3,"Opracowanie danych pomiarowych","fizyka: I rok gr. 1","dr Justyna Barzowska",A015,laboratorium,,2026-10-02,2027-01-29
+Piątek,11,3,Mechanika,"fizyka: I rok","dr Joanna Gondek, prof. UG",2.16,wykład,"zajęcia od 6 XI",2026-11-06,2027-01-29
+Piątek,11,3,"Podstawy matematyki","fizyka: I rok","dr Joanna Gondek, prof. UG",2.16,ćwiczenia,"zajęcia do 30 X",2026-10-02,2026-10-30
+Piątek,14,1,"ABC mikroprzedsiębiorczości","fizyka: I rok","dr Ewa Ignaciuk"," D003",wykład,,2026-10-02,2027-01-29
