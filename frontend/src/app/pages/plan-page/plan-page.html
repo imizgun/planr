@@ -1,1 +1,57 @@
-<p>plan-page works!</p>
+<section class="toolbar">
+    <p-select
+        [options]="programs()"
+        optionLabel="name"
+        optionValue="id"
+        [ngModel]="settings.programId()"
+        (ngModelChange)="settings.selectProgram($event)"
+        [loading]="catalog.isLoading()"
+        [filter]="true"
+        filterBy="name"
+        placeholder="Wybierz kierunek"
+        class="program-select"
+    />
+    <p-multiselect
+        [options]="program()?.groups ?? []"
+        optionLabel="label"
+        optionValue="id"
+        [ngModel]="groupIds()"
+        (ngModelChange)="settings.groupIds.set($event)"
+        [disabled]="!program()"
+        [showToggleAll]="false"
+        display="chip"
+        placeholder="Grupy"
+        class="group-select"
+    />
+    <span class="spacer"></span>
+    <p-selectbutton
+        [options]="viewModes"
+        optionLabel="label"
+        optionValue="value"
+        [ngModel]="settings.viewMode()"
+        (ngModelChange)="$event && settings.viewMode.set($event)"
+        [allowEmpty]="false"
+    />
+</section>
+
+@if (catalog.error(); as error) {
+    <p-message severity="error">{{ errorText(error) }}</p-message>
+} @else if (!program()) {
+    @if (!catalog.isLoading()) {
+        <p-message severity="info">Wybierz kierunek, aby zobaczyć plan.</p-message>
+    }
+} @else if (schedule.error(); as error) {
+    <p-message severity="error">{{ errorText(error) }}</p-message>
+} @else if (schedule.hasValue()) {
+    <app-study-week
+        [items]="schedule.value().items"
+        [viewMode]="settings.viewMode()"
+        [class.reloading]="schedule.isLoading()"
+    />
+    <footer class="source">
+        Dane z inf.ug.edu.pl, pobrane
+        {{ schedule.value().source.fetched_at | date: 'd.MM.yyyy HH:mm' }}
+    </footer>
+} @else {
+    <div class="loading"><p-progress-spinner strokeWidth="4" /></div>
+}
