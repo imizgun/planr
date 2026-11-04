@@ -1,0 +1,401 @@
+dzien,godz,czas,przedmiot,grupa,nauczyciel,sala,typ,uwagi,dataod,datado
+TPP,0,2,"Wprowadzenie do grafiki 3D",,"dr Piotr Arłukowicz, prof. UG",,wykład,"zajęcia zdalne",0000-00-00,0000-00-00
+TPP,0,1,"Automatyzacja procesów budowania i wdrażania systemów IT",,Firma,,laboratorium,,0000-00-00,0000-00-00
+TPP,0,1,"Automatyzacja procesów budowania i wdrażania systemów IT",,Firma,,wykład,,0000-00-00,0000-00-00
+TPP,0,1,"Inżynieria danych telemetrycznych i skalowanie systemów analitycznych",,Firma,,laboratorium,,0000-00-00,0000-00-00
+TPP,0,1,"Automatyzacja procesów budowania i wdrażania systemów IT",,Firma,,laboratorium,,0000-00-00,0000-00-00
+TPP,0,1,"Inżynieria danych telemetrycznych i skalowanie systemów analitycznych",,Firma,,wykład,,0000-00-00,0000-00-00
+Poniedziałek,8,2,Matematyka,Biotech,"dr hab. Piotr Szuca, prof. UG",D003,wykład,,2026-10-05,2027-01-25
+Poniedziałek,8,2,"Matematyka dyskretna","informatyka (P): I rok gr. 4","mgr Leonard Sikorski",2.04,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,8,2,"Matematyka ubezpieczeń na życie","matematyka 2 st.: II rok sp. finansowa","dr Milena Matusik",A302,wykład,,2026-10-05,2027-01-25
+Poniedziałek,8,2,"Dydaktyka matematyki w szkole ponadpodstawowej II","matematyka 2 st.: II rok sp. nauczycielska","dr Agnieszka Demby",A320,wykład,,2026-10-05,2027-01-25
+Poniedziałek,8,2,"Wstęp do matematyki","matematyka: I rok gr. 1","dr Aleksandra Nowel",A319,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,8,2,"Wstęp do programowania","modelowanie mat.: I rok gr. 3","mgr Anna Wąsik-Zejdler",A001,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,8,2,"Elementy biomatematyki",,"dr Danuta Jaruszewska-Walczak",A301,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,8,2,"Analiza danych w ubezpieczeniach na życie",,"dr Milena Matusik"," A302",wykład,,2026-10-05,2027-01-25
+Poniedziałek,8,2,"Architektura systemów komputerowych",,"dr inż. Janusz Młodzianowski",1.14,wykład,"zajęcia co dwa tygodnie",2026-10-05,2027-01-25
+Poniedziałek,8,2,"Modelowanie w matematyce szkolnej","matematyka: III rok sp. nauczycielska","dr Elżbieta Mrożek, prof. UG",A303,wykład,,2026-10-05,2027-01-25
+Poniedziałek,8,2,"Analiza funkcjonalna","matematyka 2 st.: I rok","dr hab. Karolina Kropielnicka, prof. UG",D001,wykład,,2026-10-05,2027-01-25
+Poniedziałek,8,2,"Analiza matematyczna III","modelowanie mat.: II rok gr. 1","dr Jacek Tryba",A218,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Programowanie funkcyjne",,"dr hab. Christoph Schwarzweller, prof. UG",1.15,wykład,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Protokoły sieci Web","informatyka (P): II rok gr. 1/informatyka (P): II rok gr. 4","mgr Łukasz Mielewczyk",A202,laboratorium,"grupy na zmianę co 2 tygodnie",2026-10-05,2027-01-25
+Poniedziałek,10,2,"Równania diofantyczne",,"dr Krzysztof Kowitz",A319,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Matematyka dyskretna","informatyka (O): I rok gr. 3","mgr Leonard Sikorski",2.04,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Teoria optymalizacji II","matematyka 2 st.: II rok sp. finansowa","dr Monika Wrzosek",A302,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Rachunek prawdopodobieństwa i statystyka","informatyka (O): II rok","dr Joanna Czarnowska",1.14,wykład,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Wstęp do programowania","modelowanie mat.: I rok gr. 1","dr Iwona Krzyżanowska",A101,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Projekt zespołowy","informatyka (O): III rok","dr Mikołaj Czechlewski",3.05,laboratorium,"zajęcia co dwa tygodnie",2026-10-05,2027-01-25
+Poniedziałek,10,2,"Architektura systemów komputerowych",,"dr inż. Janusz Młodzianowski",A015,laboratorium,"gr. 1; zajęcia co dwa tygodnie",2026-10-05,2027-01-25
+Poniedziałek,10,2,"Seminarium magisterskie",,"dr hab. Maciej Mroczkowski",A113,seminarium,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Analiza funkcjonalna","matematyka 2 st.: I rok","dr Danuta Jaruszewska-Walczak",A301,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Procesy stochastyczne: podstawy i zastosowania","modelowanie mat.: III rok","dr Adrian Kołodziejski",D003,wykład,10.00-11.30,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Programowanie obiektowe",,"mgr Anna Wąsik-Zejdler",A001,laboratorium,"gr. 2",2026-10-05,2027-01-25
+Poniedziałek,10,2,"Konwersatorium z matematyki szkolnej",,"dr Elżbieta Mrożek, prof. UG",A303,wykład,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Analiza matematyczna I","matematyka: I rok","dr hab. Adam Kwela, prof. UG",D001,wykład,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Architektura systemów komputerowych",,"dr inż. Janusz Młodzianowski"," A015",laboratorium,"gr. 2; zajęcia co dwa tygodnie",2026-10-05,2027-01-25
+Poniedziałek,10,2,"Analiza matematyczna I","modelowanie mat.: I rok gr. 3","dr Milena Matusik",A218,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Teoria mnogości",,"dr hab. Andrzej Nowik, prof. UG",3.14,wykład,,2026-10-05,2027-01-25
+Poniedziałek,10,2,"Dydaktyka matematyki w szkole ponadpodstawowej II","matematyka 2 st.: II rok sp. nauczycielska","dr Agnieszka Demby",A320,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Algorytmy i struktury danych","matematyka 2 st.: I rok sp. nauczycielska","dr hab. Błażej Szepietowski, prof. UG",A101,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Procesy stochastyczne: podstawy i zastosowania","modelowanie mat.: III rok gr. 1/modelowanie mat.: III rok gr. 2","dr Adrian Kołodziejski",3.13,laboratorium,"grupy na zmianę co 2 tygodnie",2026-10-05,2027-01-25
+Poniedziałek,12,2,"Język angielski 3","informatyka (O): II rok gr. 1","mgr Piotr Bohdziewicz",A319,lektorat,,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Procesy stochastyczne","matematyka 2 st.: I rok sp. finansowa+matematyka 2 st.: I rok sp. teoretyczna","dr Monika Wrzosek",3.14,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Programowanie funkcyjne",,"dr hab. Christoph Schwarzweller, prof. UG",3.11,laboratorium,"gr. 1",2026-10-05,2027-01-25
+Poniedziałek,12,2,"Język angielski 1","informatyka (P): I rok gr. 1","mgr Irena Moszczyńska-Janicka",2.04,lektorat,12.00-13.30,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Równania diofantyczne",,"dr Krzysztof Kowitz",A302,wykład,,2026-10-05,2027-01-25
+Poniedziałek,12,3,"Algebra liniowa z geometrią I","matematyka: I rok gr. 3","dr Maciej Parol",A303,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Tutorial I","modelowanie mat.: I rok gr. 1/modelowanie mat.: I rok gr. 2/modelowanie mat.: I rok gr. 3","dr Iwona Krzyżanowska",A218,ćwiczenia,"grupy na zmianę co 3 tygodnie",2026-10-05,2027-01-25
+Poniedziałek,12,2,"Język angielski III","informatyka (P): II rok gr. 4","mgr Paula Rudzińska",A320,lektorat,,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Modelowanie matematyczne","informatyka (P): II rok gr. 1","dr Joanna Czarnowska",3.05,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,12,3,"Matematyka dyskretna","informatyka (O): I rok","prof. dr hab. Andrzej Szepietowski",1.15,wykład,,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Rachunek prawdopodobieństwa i statystyka","informatyka (O): II rok gr. 2","dr inż. Monika Rosicka",A001,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Teoria mnogości",,"dr hab. Andrzej Nowik, prof. UG",A113,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,12,3,"Algebra liniowa z geometrią I","matematyka: I rok gr. 2","mgr Jakub Szmelter-Tomczuk",A301,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Programowanie współbieżne",,"dr Paweł Pączkowski",D003,wykład,12.00-14.15,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Protokoły sieci Web","informatyka (P): II rok gr. 3/informatyka (P): II rok gr. 2","mgr Łukasz Mielewczyk",A202,laboratorium,"grupy na zmianę co 2 tygodnie",2026-10-05,2027-01-25
+Poniedziałek,12,2,"Praca z tekstem naukowym","matematyka 2 st.: II rok sp. teoretyczna","dr hab. Andreas Zastrow, prof. UG"," A306",ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Sieci komputerowe","informatyka (O): III rok","dr Adam Kostulak, prof. UG",1.14,wykład,,2026-10-05,2027-01-25
+Poniedziałek,13,1,"Podstawy mikroprzedsiębiorczości","modelowanie mat. 2 st.: II rok","dr Ewa Ignaciuk",2.14,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,14,2,"Frontend development","informatyka (P): II rok gr. 2","dr Jakub Neumann, prof. UG",,laboratorium,"zajęcia zdalne; zajęcia od 30 XI",2026-11-30,2027-01-25
+Poniedziałek,14,2,"Architektura systemów komputerowych","informatyka (O): II rok gr. 1","dr inż. Janusz Młodzianowski",3.05,laboratorium,"zajęcia co dwa tygodnie; zajęcia od 12 X",2026-10-12,2027-01-25
+Poniedziałek,14,2,"Analiza matematyczna I","modelowanie mat.: I rok gr. 2","dr Iwona Krzyżanowska",A218,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,14,1,"Podstawy mikroprzedsiębiorczości","modelowanie mat. 2 st.: II rok+matematyka 2 st.: II rok sp. nauczycielska+matematyka 2 st.: II rok sp. teoretyczna","dr Ewa Ignaciuk",2.14,wykład,,2026-10-05,2027-01-25
+Poniedziałek,14,2,"Frontend development","informatyka (P): II rok gr. 3","mgr Mateusz Miotk",,laboratorium,"14.30-16.00; zajęcia zdalne; zajęcia od 30 XI",2026-11-30,2027-01-25
+Poniedziałek,14,2,"Programowanie współbieżne",,"dr Paweł Pączkowski",A001,laboratorium,"gr. 1",2026-10-05,2027-01-25
+Poniedziałek,14,2,"Matematyka elementarna","informatyka (P): I rok gr. 1","dr inż. Monika Rosicka",A319,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,14,2,"Zaawansowana analiza matematyczna","matematyka 2 st.: I rok","prof. dr hab. Tomasz Natkaniec",A320,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,14,2,"Sieci komputerowe","informatyka (O): III rok","dr Adam Kostulak, prof. UG",3.13,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,14,2,"Analiza danych w ubezpieczeniach na życie",,"dr Milena Matusik"," A015",laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,14,2,"Algorytmy i struktury danych","modelowanie mat.: II rok gr. 1","dr hab. Błażej Szepietowski, prof. UG",A101,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,14,2,"Architektura systemów komputerowych","informatyka (O): II rok gr. 2","dr inż. Janusz Młodzianowski"," 3.05",laboratorium,"zajęcia co dwa tygodnie; zajęcia od 12 X",2026-10-12,2027-01-25
+Poniedziałek,14,2,"Język angielski 1","informatyka (P): I rok gr. 2","mgr Irena Moszczyńska-Janicka",2.04,lektorat,13.45-15.15,2026-10-05,2027-01-25
+Poniedziałek,14,2,"Język angielski III","informatyka (P): II rok gr. 1","mgr Paula Rudzińska",A302,lektorat,14.30-16.00,2026-10-05,2027-01-25
+Poniedziałek,14,2,"Matematyka ubezpieczeń na życie","matematyka 2 st.: II rok sp. finansowa","dr Milena Matusik",A015,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,14,2,"Oprogramowanie matematyczne","matematyka: II rok sp. nauczycielska","dr hab. Andrzej Nowik, prof. UG",A202,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,15,1,"Podstawy mikroprzedsiębiorczości","matematyka 2 st.: II rok sp. nauczycielska+matematyka 2 st.: II rok sp. teoretyczna","dr Ewa Ignaciuk",2.14,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,16,2,"Architektura systemów komputerowych","informatyka (O): II rok","dr inż. Janusz Młodzianowski",1.14,wykład,"zajęcia co dwa tygodnie; zajęcia od 12 X",2026-10-12,2027-01-25
+Poniedziałek,16,3,"Ochrona własności intelektualnej i prawo autorskie","modelowanie mat. 2 st.: II rok+matematyka 2 st.: II rok","dr Ewelina Szatkowska",D003,wykład,"zajęcia od 11 I do 18 I",2027-01-11,2027-01-18
+Poniedziałek,16,2,"Frontend development","informatyka (P): II rok gr. 4","mgr Mateusz Miotk",,laboratorium,"zajęcia zdalne; zajęcia od 30 XI",2026-11-30,2027-01-25
+Poniedziałek,16,2,"Analiza matematyczna III","matematyka: II rok sp. nauczycielska","dr Nikodem Mrożek",A218,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,16,2,"Seminarium magisterskie I",,promotorzy,3.04,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,16,2,"Matematyka elementarna","informatyka (P): I rok gr. 3","dr inż. Monika Rosicka",A319,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,16,2,"Wstęp do programowania","informatyka (O): I rok","dr Janusz Dybizbański","<a href='https://teams.cloud.microsoft/l/team/19%3Air2IlbIgGUSnVRZ4X9wx26owKo4pzImu9ubaZV6_QXM1%40thread.tacv2/conversations?groupId=a76729dd-6c6d-4490-8de5-1772719d83f4&tenantId=2d9a5a9f-69b7-4940-a1a6-af55f35ba069'>link do zajęć</a>",wykład,"zajęcia zdalne",2026-10-05,2027-01-25
+Poniedziałek,17,2,"Wykład ogólnouczelniany","matematyka: III rok sp. ogólna",,,wykład,"17.00-18.30; zajęcia zdalne",2026-10-05,2027-01-25
+Poniedziałek,17,2,"Wykład ogólnouczelniany","informatyka (O): III rok",,,wykład,"17.00-18.30; zajęcia zdalne",2026-10-05,2027-01-25
+Poniedziałek,17,2,"Wykład ogólnouczelniany","informatyka (P): III rok",,,wykład,"17.00-18.30; zajęcia zdalne",2026-10-05,2027-01-25
+Poniedziałek,17,2,"Frontend development","informatyka (P): II rok","mgr Mateusz Miotk",,wykład,"17.00-18.30; zajęcia zdalne; zajęcia do 23 XI",2026-10-05,2026-11-23
+Poniedziałek,18,2,"Frontend development","informatyka (P): II rok gr. 1","mgr Mateusz Miotk",,laboratorium,"18.00-19.30; zajęcia zdalne; zajęcia od 30 XI",2026-11-30,2027-01-25
+Poniedziałek,19,1,"Analityk w metodykach zwinnych",,"mgr Marek Szkudlarek"," 3.11",laboratorium,"18.30-20.00; gr. 2; zajęcia co dwa tygodnie",2026-10-05,2027-01-25
+Poniedziałek,19,1,"Analityk w metodykach zwinnych",,"mgr Marek Szkudlarek",3.11,laboratorium,"18.30-20.00; gr. 1; zajęcia co dwa tygodnie",2026-10-05,2027-01-25
+Wtorek,8,2,"Wstęp do matematyki","matematyka: I rok gr. 1","dr Aleksandra Nowel",A319,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,8,2,"Analiza doświadczeń z praktyki w szkole","matematyka: III rok sp. nauczycielska+matematyka 2 st.: II rok sp. nauczycielska","dr Elżbieta Mrożek, prof. UG",A303,ćwiczenia," 8.00-9.30; zajęcia od 8 XII do 19 I",2026-12-08,2027-01-19
+Wtorek,8,2,"Elementy biomatematyki",,"dr Danuta Jaruszewska-Walczak",A320,wykład,,2026-10-06,2027-01-26
+Wtorek,8,1,"Analityk w metodykach zwinnych",,"mgr Marek Szkudlarek",1.14,wykład,,2026-10-06,2027-01-26
+Wtorek,8,2,"Analiza matematyczna III","modelowanie mat.: II rok gr. 2","dr Jacek Tryba",A301,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,8,2,"Analiza matematyczna I","modelowanie mat.: I rok","dr hab. Barbara Wolnik, prof. UG",D003,wykład,8.30-10.00,2026-10-06,2027-01-26
+Wtorek,8,5,"Blok przedmiotów pedagogicznych","matematyka: II rok sp. nauczycielska",,,,"szczegółowy plan <a href=https://inf.ug.edu.pl/plan/NL.html>https://inf.ug.edu.pl/plan/NL.html</a>",2026-10-06,2027-01-26
+Wtorek,8,2,"Programowanie obiektowe","informatyka (O): II rok gr. 2","dr inż. Jan Tuziemski",3.04,laboratorium,8.30-10.00,2026-10-06,2027-01-26
+Wtorek,8,2,"Mathematical Optimization and Applications",,"dr Felix Huber",A218,wykład,,2026-10-06,2027-01-26
+Wtorek,8,2,"Analiza doświadczeń z praktyki w szkole","matematyka: III rok sp. nauczycielska+matematyka 2 st.: II rok sp. nauczycielska","mgr Dorota Brzezińska"," A303",ćwiczenia,"8.00-9.30; zajęcia od 3 XI do 1 XII",2026-11-03,2026-12-01
+Wtorek,8,5,"Blok przedmiotów pedagogicznych","matematyka 2 st.: I rok sp. nauczycielska",,,,"szczegółowy plan <a href=https://inf.ug.edu.pl/plan/NM.html>https://inf.ug.edu.pl/plan/NM.html</a>",2026-10-06,2027-01-26
+Wtorek,9,1,"Analiza i projektowanie systemów informatycznych","informatyka (P): III rok","dr Robert Fidytek",1.14,wykład,,2026-10-06,2027-01-26
+Wtorek,10,2,"Analiza matematyczna I","matematyka: I rok gr. 2","dr Aleksandra Nowel",A319,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,10,2,"Analiza matematyczna I","modelowanie mat.: I rok gr. 1","dr hab. Barbara Wolnik, prof. UG",A301,ćwiczenia,10.30-12.00,2026-10-06,2027-01-26
+Wtorek,10,2,"Wstęp do matematyki","matematyka: I rok gr. 3","dr Marta Kwela",A302,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,10,2,"Warsztat programisty","informatyka (O): I rok gr. 2","dr Robert Fidytek",3.04,laboratorium,,2026-10-06,2027-01-26
+Wtorek,10,2,"Wykład wydziałowy - Fizyka","matematyka 2 st.: II rok sp. nauczycielska","dr Patryk Kamiński",D003,wykład,,2026-10-06,2027-01-26
+Wtorek,10,2,"Mathematical Optimization and Applications",,"dr Felix Huber",A101,laboratorium,,2026-10-06,2027-01-26
+Wtorek,10,2,"Protokoły sieci Web","informatyka (P): II rok","mgr Łukasz Mielewczyk",1.15,wykład,"zajęcia do 24 XI",2026-10-06,2026-11-24
+Wtorek,10,2,"Analiza matematyczna","informatyka (O): I rok gr. 1","dr inż. Magda Dettlaff",2.04,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,10,2,"Analiza szeregów czasowych","modelowanie mat.: III rok gr. 2","dr Marta Frankowska",A001,laboratorium,,2026-10-06,2027-01-26
+Wtorek,10,2,"Aplikacje przemysłowe","informatyka (P): III rok","dr Jakub Neumann, prof. UG",1.14,wykład,,2026-10-06,2027-01-26
+Wtorek,10,2,"Wstęp do programowania","modelowanie mat.: I rok gr. 2","dr hab. Maciej Mroczkowski",A202,laboratorium,,2026-10-06,2027-01-26
+Wtorek,10,2,"Język angielski 3","modelowanie mat.: II rok gr. 2","mgr Joanna Chmielewska",A303,lektorat,,2026-10-06,2027-01-26
+Wtorek,10,2,"Wstęp do matematyki","modelowanie mat.: I rok gr. 3","dr Iwona Krzyżanowska",A218,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,10,2,"Systemy operacyjne","informatyka (O): II rok gr. 2","mgr Radosław Ziemann",3.13,laboratorium,,2026-10-06,2027-01-26
+Wtorek,10,2,"Wstęp do programowania","informatyka (O): I rok gr. 3","dr Łukasz Pankowski",3.05,laboratorium,,2026-10-06,2027-01-26
+Wtorek,10,3,"Algebra liniowa z geometrią I","matematyka: I rok gr. 1","dr Maciej Parol",A320,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,11,3,"Wstęp do programowania","informatyka (P): I rok gr. 2","mgr Laura Grzonka",3.11,laboratorium,,2026-10-06,2027-01-26
+Wtorek,12,2,"Analiza i projektowanie systemów informatycznych","informatyka (P): III rok gr. 3","dr Robert Fidytek",3.04,laboratorium,,2026-10-06,2027-01-26
+Wtorek,12,2,"Oprogramowanie matematyczne","modelowanie mat.: II rok gr. 2","dr hab. Andrzej Nowik, prof. UG",A101,laboratorium,,2026-10-06,2027-01-26
+Wtorek,12,2,"Analiza szeregów czasowych","modelowanie mat.: III rok","dr Marta Frankowska",D003,wykład,,2026-10-06,2027-01-26
+Wtorek,12,2,"Aplikacje przemysłowe","informatyka (P): III rok gr. 1","dr Jakub Neumann, prof. UG",A001,laboratorium,,2026-10-06,2027-01-26
+Wtorek,12,2,"Projekt Zespołowy","informatyka (P): III rok gr. 4","dr Adam Kostulak, prof. UG",3.13,laboratorium,,2026-10-06,2027-01-26
+Wtorek,12,2,"Procesy stochastyczne","modelowanie mat. 2 st.: I rok","dr hab. Thomas Zlosnik",A302,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,12,2,"Systemy operacyjne","informatyka (O): II rok","mgr Łukasz Mielewczyk",1.15,wykład,"dni wykładów na stronie <a href=https://lmielewczyk.pl/others/dateOS.php>https://lmielewczyk.pl/others/dateOS.php</a>",2026-10-06,2027-01-26
+Wtorek,12,2,"Język angielski III","informatyka (P): II rok gr. 2","mgr Marharyta Yumahulava",2.14,lektorat,,2026-10-06,2027-01-26
+Wtorek,12,2,"Teoria optymalizacji II","matematyka 2 st.: II rok sp. finansowa","dr Monika Wrzosek",D001,wykład,,2026-10-06,2027-01-26
+Wtorek,12,2,"Wstęp do matematyki","matematyka: I rok gr. 2","dr Aleksandra Nowel",A319,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,12,2,"Język angielski III","informatyka (P): II rok gr. 3","mgr Paula Rudzińska",2.04,lektorat,,2026-10-06,2027-01-26
+Wtorek,12,2,"Analiza matematyczna","informatyka (O): I rok","dr inż. Magda Dettlaff",1.14,wykład,,2026-10-06,2027-01-26
+Wtorek,12,2,"Funkcje elementarne","matematyka 2 st.: II rok sp. nauczycielska","dr Agnieszka Demby",A301,wykład,,2026-10-06,2027-01-26
+Wtorek,12,2,"Analiza matematyczna I","matematyka: I rok gr. 3","dr Iwona Krzyżanowska",A218,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,12,2,"Testowanie automatyczne","informatyka (P): II rok gr. 1","mgr Konrad Sołtys",A102,laboratorium,"zajęcia od 13 X",2026-10-13,2027-01-26
+Wtorek,12,2,"Język angielski 3","modelowanie mat.: II rok gr. 1","mgr Joanna Chmielewska",A303,lektorat,,2026-10-06,2027-01-26
+Wtorek,12,2,"Systemy operacyjne","informatyka (P): II rok gr. 4","mgr Radosław Ziemann",A202,laboratorium,,2026-10-06,2027-01-26
+Wtorek,14,2,"Warsztat programisty","informatyka (O): I rok gr. 3","dr Łukasz Pankowski",3.05,laboratorium,,2026-10-06,2027-01-26
+Wtorek,14,2,"Systemy operacyjne","informatyka (O): II rok gr. 1","mgr Radosław Ziemann",A202,laboratorium,,2026-10-06,2027-01-26
+Wtorek,14,2,"Projekt Zespołowy","informatyka (P): III rok gr. 1","dr Mikołaj Czechlewski",3.13,laboratorium,,2026-10-06,2027-01-26
+Wtorek,14,2,"Equations of Mathematical Physics",,"dr hab. Marcin Marciniak, prof. UG"," A218",wykład,,2026-10-06,2027-01-26
+Wtorek,14,2,"Analiza matematyczna","informatyka (O): I rok gr. 2","dr inż. Magda Dettlaff",2.14,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,14,2,"Matematyka dyskretna","informatyka (P): I rok gr. 2","mgr Maciej Stankiewicz",A319,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,14,2,"Funkcje analityczne I","matematyka 2 st.: I rok sp. nauczycielska","dr Adrian Karpowicz",A113,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,14,2,"Programowanie współbieżne",,"dr Paweł Pączkowski",A101,laboratorium,"gr. 2",2026-10-06,2027-01-26
+Wtorek,14,2,"Funkcje elementarne","matematyka 2 st.: II rok sp. nauczycielska","dr Agnieszka Demby",A301,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,14,2,Matematyka,"Biotech 2","dr hab. Piotr Szuca, prof. UG",A302,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,14,2,"Język angielski 3","matematyka: II rok","mgr Joanna Chmielewska",A303,lektorat,,2026-10-06,2027-01-26
+Wtorek,14,2,"Systemy operacyjne","informatyka (P): II rok","mgr Łukasz Mielewczyk",1.15,wykład,,2026-10-06,2027-01-26
+Wtorek,14,2,"Warsztat programisty","informatyka (O): I rok gr. 1","dr inż. Łukasz Kuszner",A001,laboratorium,,2026-10-06,2027-01-26
+Wtorek,14,2,"Analiza i projektowanie systemów informatycznych","informatyka (P): III rok gr. 4","dr Robert Fidytek",3.04,laboratorium,,2026-10-06,2027-01-26
+Wtorek,14,2,"Analiza instrumentów finansowych",,"dr Milena Matusik",1.14,wykład,,2026-10-06,2027-01-26
+Wtorek,14,2,"Analiza matematyczna III","modelowanie mat.: II rok","dr hab. Filip Strobin, prof. UG",D003,wykład,,2026-10-06,2027-01-26
+Wtorek,14,2,Matematyka,"Biotech 4","dr Paweł Klinga",A320,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,14,2,"Matematyka dla informatyków","informatyka 2 st.: II rok gr. 2","dr Maciej Dziemiańczuk",A015,laboratorium,,2026-10-06,2027-01-26
+Wtorek,14,2,"Język angielski 1","informatyka (P): I rok gr. 3","mgr Paula Rudzińska",2.04,lektorat,,2026-10-06,2027-01-26
+Wtorek,14,3,"Wstęp do programowania","informatyka (P): I rok gr. 1","mgr Laura Grzonka",3.11,laboratorium,,2026-10-06,2027-01-26
+Wtorek,16,2,"Analiza instrumentów finansowych",,"mgr Anna Wąsik-Zejdler",A015,laboratorium,,2026-10-06,2027-01-26
+Wtorek,16,3,"Wstęp do programowania","informatyka (P): I rok gr. 4","mgr Aleksandra Laskowska",A202,laboratorium,,2026-10-06,2027-01-26
+Wtorek,16,2,"Funkcje analityczne I","matematyka 2 st.: I rok sp. nauczycielska","dr Iwona Krzyżanowska",A218,wykład,,2026-10-06,2027-01-26
+Wtorek,16,2,"Zaawansowane języki programowania","informatyka 2 st.: I rok gr. 2","mgr Łukasz Mielewczyk",3.13,laboratorium,,2026-10-06,2027-01-26
+Wtorek,16,2,"Oprogramowanie matematyczne","modelowanie mat.: II rok gr. 1","dr Adrian Karpowicz",A001,laboratorium,,2026-10-06,2027-01-26
+Wtorek,16,2,"Zarządzanie projektem informatycznym","informatyka (P): II rok gr. 1/informatyka (P): II rok gr. 4","mgr Marek Szkudlarek",3.05,laboratorium,"grupy na zmianę co 2 tygodnie",2026-10-06,2027-01-26
+Wtorek,16,2,"Wstęp do technologii Web","informatyka (O): I rok","dr hab. Wiesław Pawłowski",1.14,wykład,"zajęcia do 24 XI",2026-10-06,2026-11-24
+Wtorek,16,2,"Matematyka dla informatyków","informatyka 2 st.: II rok","dr Maciej Dziemiańczuk",1.15,wykład,,2026-10-06,2027-01-26
+Wtorek,16,2,"Funkcje analityczne I","matematyka: III rok sp. ogólna","dr Szymon Myga",D001,wykład,,2026-10-06,2027-01-26
+Wtorek,16,2,"Optymalizacja kombinatoryczna",,"dr Hanna Furmańczyk",2.04,wykład,,2026-10-06,2027-01-26
+Wtorek,16,2,"Equations of Mathematical Physics",,"dr Yaser Tavakoli"," 2.13",ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,16,2,"Matematyka dyskretna","informatyka (P): I rok gr. 3","mgr Maciej Stankiewicz",A319,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,17,2,"Algorytmy i struktury danych I","informatyka (O): II rok gr. 1","dr Janusz Dybizbański","<a href='https://teams.cloud.microsoft/l/team/19%3AKKacH0p4BFwruevcJaZzmGtvt18ITlzD-5xt8hlewXs1%40thread.tacv2/conversations?groupId=8c5ad7df-d3f4-406e-bb59-e3371383598e&tenantId=2d9a5a9f-69b7-4940-a1a6-af55f35ba069'>link do zajęć</a>",laboratorium,"zajęcia zdalne",2026-10-06,2027-01-26
+Wtorek,18,2,"Zarządzanie projektem informatycznym","informatyka (P): II rok gr. 3/informatyka (P): II rok gr. 2","mgr Marek Szkudlarek",3.05,laboratorium,"grupy na zmianę co 2 tygodnie",2026-10-06,2027-01-26
+Wtorek,18,2,"Matematyka dla informatyków","informatyka 2 st.: II rok gr. 1","dr Maciej Dziemiańczuk",A301,laboratorium,,2026-10-06,2027-01-26
+Wtorek,18,2,"Optymalizacja kombinatoryczna",,"dr Hanna Furmańczyk",A015,laboratorium,"18.00-19.30; gr. 2",2026-10-06,2027-01-26
+Wtorek,18,2,"Zaawansowane języki programowania","informatyka 2 st.: I rok","dr hab. Wiesław Pawłowski",1.14,wykład,,2026-10-06,2027-01-26
+Wtorek,18,2,"Programowanie zorientowane na dane","modelowanie mat. 2 st.: I rok","dr Janusz Przewocki",A101,laboratorium,,2026-10-06,2027-01-26
+Wtorek,18,2,"Optymalizacja kombinatoryczna",,"mgr Maciej Stankiewicz",3.04,laboratorium,"gr. 1",2026-10-06,2027-01-26
+Środa,8,2,"Analiza danych w ubezpieczeniach majątkowych",,"dr Monika Wrzosek"," A302",wykład,,2026-10-07,2027-01-27
+Środa,8,2,"Analiza matematyczna I","modelowanie mat.: I rok gr. 2","dr Iwona Krzyżanowska",A320,ćwiczenia,,2026-10-07,2027-01-27
+Środa,8,2,Ekonometria,,"dr hab. Dorota Ciołek, prof. UG",B506,wykład,"8.00-9.30; zajęcia w budynku Wydziału Ekonomii",2026-10-07,2027-01-27
+Środa,8,2,"Konwersatorium z matematyki szkolnej",,"mgr Weronika Figurska-Zięba",A301,ćwiczenia,,2026-10-07,2027-01-27
+Środa,8,2,"Algorytmy przetwarzania obrazów cyfrowych",,"dr inż. Agnieszka Rowińska-Schwarzweller",3.11,laboratorium,"gr. 1",2026-10-07,2027-01-27
+Środa,8,2,"Zaawansowana analiza matematyczna","modelowanie mat. 2 st.: I rok","dr Jacek Tryba",A218,wykład,,2026-10-07,2027-01-27
+Środa,8,2,"Matematyka dyskretna","informatyka (O): I rok gr. 3","mgr Leonard Sikorski",2.04,ćwiczenia,,2026-10-07,2027-01-27
+Środa,8,2,"Ubezpieczenia majątkowe","matematyka 2 st.: II rok sp. finansowa","dr Monika Wrzosek",A302,wykład,,2026-10-07,2027-01-27
+Środa,8,2,"Algorytmy i struktury danych","matematyka: II rok sp. ogólna","dr hab. Ewa Tyszkowska",A001,laboratorium,,2026-10-07,2027-01-27
+Środa,8,3,"Metody matematyczne w oceanografii",OCEAN,"dr hab. Marcin Marciniak, prof. UG",D003,wykład,,2026-10-07,2027-01-27
+Środa,10,2,"Wstęp do matematyki","modelowanie mat.: I rok gr. 3","dr Iwona Krzyżanowska",A320,ćwiczenia,,2026-10-07,2027-01-27
+Środa,10,2,"Analiza danych w ubezpieczeniach majątkowych",,"dr Monika Wrzosek"," A202",laboratorium,,2026-10-07,2027-01-27
+Środa,10,2,"Basics of Quantum Information",,"dr hab. Karol Horodecki, prof. UG"," 2.05",wykład,,2026-10-07,2027-01-27
+Środa,10,5,"Praktyka nauczania matematyki 1 w szkole podstawowej","matematyka: III rok sp. nauczycielska+matematyka 2 st.: II rok sp. nauczycielska","dr Agnieszka Demby",,praktyka,,2026-10-07,2027-01-27
+Środa,10,2,"Algebra liniowa z geometrią I","matematyka: I rok","dr hab. Ewa Tyszkowska",D001,wykład,,2026-10-07,2027-01-27
+Środa,10,2,"Modelowanie matematyczne","informatyka (P): II rok gr. 4","dr Joanna Czarnowska",3.05,laboratorium,,2026-10-07,2027-01-27
+Środa,10,2,Ekonometria,,"dr hab. Dorota Ciołek, prof. UG",B507,laboratorium,"9.45-11.15; zajęcia w budynku Wydziału Ekonomii",2026-10-07,2027-01-27
+Środa,10,2,"Język angielski 1","informatyka (P): I rok gr. 3","mgr Paula Rudzińska",A319,lektorat,,2026-10-07,2027-01-27
+Środa,10,2,"Testowanie automatyczne","informatyka (P): II rok gr. 3","mgr Konrad Sołtys",3.04,laboratorium,"zajęcia od 14 X",2026-10-14,2027-01-27
+Środa,10,2,"Statystyka opisowa","modelowanie mat.: I rok gr. 1","dr Marta Frankowska",A015,laboratorium,,2026-10-07,2027-01-27
+Środa,10,2,"Ubezpieczenia majątkowe","matematyka 2 st.: II rok sp. finansowa","dr Monika Wrzosek",A202,laboratorium,,2026-10-07,2027-01-27
+Środa,10,2,"Wstęp do technologii Web","informatyka (O): I rok gr. 3","mgr Aleksandra Laskowska",3.11,laboratorium,,2026-10-07,2027-01-27
+Środa,10,2,"Matematyka elementarna","informatyka (P): I rok gr. 4","dr inż. Monika Rosicka",2.04,ćwiczenia,,2026-10-07,2027-01-27
+Środa,10,2,"Zaawansowana analiza matematyczna","modelowanie mat. 2 st.: I rok","dr Jacek Tryba",A218,ćwiczenia,,2026-10-07,2027-01-27
+Środa,10,2,"Wstęp do programowania","modelowanie mat.: I rok gr. 2","dr hab. Maciej Mroczkowski",A001,laboratorium,,2026-10-07,2027-01-27
+Środa,10,2,"Algorytmy przetwarzania obrazów cyfrowych",,"dr inż. Agnieszka Rowińska-Schwarzweller",1.14,wykład,,2026-10-07,2027-01-27
+Środa,11,3,"Programowanie i metody analizy danych",OCEAN,"dr inż. Anna Nenca",3.13,laboratorium,,2026-10-07,2027-01-27
+Środa,11,2,"Analiza matematyczna III","matematyka: II rok","dr hab. Piotr Szuca, prof. UG",D003,wykład,,2026-10-07,2027-01-27
+Środa,12,2,"Wstęp do programowania","informatyka (O): I rok gr. 3","dr Łukasz Pankowski",3.05,laboratorium,,2026-10-07,2027-01-27
+Środa,12,2,"Seminarium magisterskie",,"dr hab. Karolina Kropielnicka, prof. UG",1.18,seminarium,,2026-10-07,2027-01-27
+Środa,12,2,"Język angielski III","informatyka (P): II rok gr. 2","mgr Marharyta Yumahulava",2.04,lektorat,,2026-10-07,2027-01-27
+Środa,12,2,"Analiza matematyczna I","matematyka: I rok","dr hab. Adam Kwela, prof. UG",D001,wykład,,2026-10-07,2027-01-27
+Środa,12,2,"Statystyka opisowa","modelowanie mat.: I rok gr. 2","dr Marta Frankowska",A015,laboratorium,,2026-10-07,2027-01-27
+Środa,12,2,"Algorytmy przetwarzania obrazów cyfrowych",,"dr inż. Agnieszka Rowińska-Schwarzweller",3.11,laboratorium,"gr. 2",2026-10-07,2027-01-27
+Środa,12,2,"Wstęp do programowania","modelowanie mat.: I rok gr. 1","dr Iwona Krzyżanowska",A101,laboratorium,,2026-10-07,2027-01-27
+Środa,12,1,Makroekonomia,,"dr Adam Szczęch",C202,wykład,"11.30-13.00; zajęcia w budynku Wydziału Ekonomii",2026-10-07,2027-01-27
+Środa,12,2,"Testowanie automatyczne","informatyka (P): II rok gr. 4","mgr Konrad Sołtys",3.04,laboratorium,"zajęcia od 14 X",2026-10-14,2027-01-27
+Środa,12,2,Matematyka,"Biotech 5","dr Bartosz Makuracki",A320,ćwiczenia,,2026-10-07,2027-01-27
+Środa,12,2,Matematyka,"Biotech 1","dr Aleksandra Nowel",A218,ćwiczenia,,2026-10-07,2027-01-27
+Środa,12,2,"Matematyka elementarna","informatyka (P): I rok","dr Joanna Czarnowska",1.15,wykład,,2026-10-07,2027-01-27
+Środa,12,2,"Basics of Quantum Information",,"dr hab. Karol Horodecki, prof. UG",A001,ćwiczenia,,2026-10-07,2027-01-27
+Środa,12,2,"Seminarium licencjackie",,"dr Monika Wrzosek",A113,seminarium,,2026-10-07,2027-01-27
+Środa,12,2,"Język angielski III","informatyka (P): II rok gr. 3","mgr Paula Rudzińska",A319,lektorat,,2026-10-07,2027-01-27
+Środa,13,2,Makroekonomia,,"dr Adam Szczęch",C202,ćwiczenia,"13.30-15.00; zajęcia w budynku Wydziału Ekonomii",2026-10-07,2027-01-27
+Środa,13,5,"Blok przedmiotów pedagogicznych","matematyka: II rok sp. nauczycielska",,,,"szczegółowy plan <a href=https://inf.ug.edu.pl/plan/NL.html>https://inf.ug.edu.pl/plan/NL.html</a>",2026-10-07,2027-01-27
+Środa,13,5,"Blok przedmiotów pedagogicznych","matematyka 2 st.: I rok sp. nauczycielska",,,,"szczegółowy plan <a href=https://inf.ug.edu.pl/plan/NM.html>https://inf.ug.edu.pl/plan/NM.html</a>",2026-10-07,2027-01-27
+Środa,14,2,"Analiza matematyczna III","matematyka: II rok sp. ogólna","dr Nikodem Mrożek",A301,ćwiczenia,,2026-10-07,2027-01-27
+Środa,14,2,"Język angielski III","informatyka (P): II rok gr. 4","mgr Paula Rudzińska",A319,lektorat,,2026-10-07,2027-01-27
+Środa,14,3,"Metody matematyczne w oceanografii",OCEAN,"mgr Laura Grzonka",3.13,laboratorium,,2026-10-07,2027-01-27
+Środa,14,2,"Seminarium magisterskie",,"dr hab. Ewa Tyszkowska",A113,seminarium,,2026-10-07,2027-01-27
+Środa,14,2,"Analiza i projektowanie systemów informatycznych","informatyka (P): III rok gr. 1","dr Robert Fidytek",3.11,laboratorium,,2026-10-07,2027-01-27
+Środa,14,2,"Aplikacje przemysłowe","informatyka (P): III rok gr. 3","mgr Mateusz Miotk",A001,laboratorium,14.30-16.00,2026-10-07,2027-01-27
+Środa,14,2,"Systemy operacyjne","informatyka (P): II rok gr. 3","mgr Radosław Ziemann",A202,laboratorium,,2026-10-07,2027-01-27
+Środa,14,2,"Matematyka dyskretna","informatyka (P): I rok","dr hab. Paweł Żyliński, prof. UG",1.14,wykład,,2026-10-07,2027-01-27
+Środa,14,2,"Analiza szeregów czasowych","modelowanie mat.: III rok gr. 1","dr Marta Frankowska",A015,laboratorium,,2026-10-07,2027-01-27
+Środa,14,2,"Statystyka opisowa","modelowanie mat.: I rok","dr hab. Filip Strobin, prof. UG",D001,wykład,"zajęcia co dwa tygodnie",2026-10-07,2027-01-27
+Środa,14,2,"Projekt Zespołowy","informatyka (P): III rok gr. 2","dr Łukasz Pankowski",3.05,laboratorium,,2026-10-07,2027-01-27
+Środa,14,2,"Analiza matematyczna","informatyka (O): I rok gr. 3","dr inż. Magda Dettlaff",2.04,ćwiczenia,,2026-10-07,2027-01-27
+Środa,14,2,"Obliczalność i złożoność","informatyka 2 st.: I rok+informatyka 2 st.: II rok","prof. dr hab. Andrzej Szepietowski",1.15,wykład,,2026-10-07,2027-01-27
+Środa,14,2,"Wstęp do matematyki","matematyka: I rok gr. 3","dr Marta Kwela",A320,ćwiczenia,,2026-10-07,2027-01-27
+Środa,14,2,"Testowanie automatyczne","informatyka (P): II rok gr. 2","mgr Konrad Sołtys",3.04,laboratorium,"zajęcia od 14 X",2026-10-14,2027-01-27
+Środa,15,2,"Równania różniczkowe","matematyka: III rok","dr Danuta Jaruszewska-Walczak",A303,ćwiczenia,,2026-10-07,2027-01-27
+Środa,16,2,"Zaawansowane bazy danych i inżynieria danych","informatyka 2 st.: I rok","dr Robert Fidytek",1.14,wykład,,2026-10-07,2027-01-27
+Środa,16,2,"Algebra liniowa I","modelowanie mat.: I rok gr. 1","dr Marek Hałenda",A218,ćwiczenia,,2026-10-07,2027-01-27
+Środa,16,2,"Wnioskowanie statystyczne I","modelowanie mat.: III rok gr. 1/modelowanie mat.: III rok gr. 2","dr Nikodem Mrożek",A302,ćwiczenia,"grupy na zmianę co 2 tygodnie",2026-10-07,2027-01-27
+Środa,16,2,"Aplikacje przemysłowe","informatyka (P): III rok gr. 4","mgr Mateusz Miotk",A001,laboratorium,16.15-17.45,2026-10-07,2027-01-27
+Środa,16,2,"Matematyka dyskretna","informatyka (P): I rok gr. 1","dr hab. Paweł Żyliński, prof. UG",2.04,ćwiczenia,,2026-10-07,2027-01-27
+Środa,16,2,"Projekt Zespołowy","informatyka (P): III rok gr. 3","dr inż. Łukasz Kuszner",3.11,laboratorium,,2026-10-07,2027-01-27
+Środa,16,2,"Obliczalność i złożoność","informatyka 2 st.: II rok gr. 2","dr inż. Anna Nenca",A319,ćwiczenia,,2026-10-07,2027-01-27
+Środa,16,1,"Zarządzanie projektem informatycznym","informatyka (P): II rok","mgr Marek Szkudlarek",1.15,wykład,,2026-10-07,2027-01-27
+Środa,16,2,"Obliczalność i złożoność","informatyka 2 st.: II rok gr. 1","prof. dr hab. Andrzej Szepietowski",A301,ćwiczenia,,2026-10-07,2027-01-27
+Środa,16,2,"Warsztat programisty","informatyka (P): I rok gr. 3","mgr Michał Zakrzewski",3.04,laboratorium,,2026-10-07,2027-01-27
+Środa,16,2,"Aplikacje przemysłowe","informatyka (P): III rok gr. 2","dr Jakub Neumann, prof. UG",A202,laboratorium,,2026-10-07,2027-01-27
+Środa,16,2,"Statystyka opisowa","modelowanie mat.: I rok gr. 3","dr Marta Frankowska",A015,laboratorium,,2026-10-07,2027-01-27
+Środa,17,2,"Seminarium licencjackie",,"dr hab. Rafał Filipów, prof. UG",A113,seminarium,,2026-10-07,2027-01-27
+Środa,18,2,"Analiza i projektowanie systemów informatycznych","informatyka (P): III rok gr. 2","dr Robert Fidytek",3.13,laboratorium,,2026-10-07,2027-01-27
+Środa,18,2,"Zaawansowane bazy danych i inżynieria danych","informatyka 2 st.: I rok gr. 1","mgr Grzegorz Madejski",3.04,laboratorium,,2026-10-07,2027-01-27
+Czwartek,8,2,"Programowanie funkcyjne",,"dr hab. Christoph Schwarzweller, prof. UG",3.11,laboratorium,"gr. 2",2026-10-01,2027-01-28
+Czwartek,8,2,Matematyka,"Biotech 3","dr Krzysztof Kowitz",2.14,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,8,2,"Algorytmy i struktury danych","matematyka: II rok sp. nauczycielska","mgr Anna Wąsik-Zejdler",A101,laboratorium,,2026-10-01,2027-01-28
+Czwartek,8,2,"Współczesne zastosowania informatyki","informatyka (P): II rok",,,wykład,"8.30-10.00; zajęcia zdalne",2026-10-01,2027-01-28
+Czwartek,8,2,"Optymalizacja kombinatoryczna [2]","informatyka (O): III rok","dr hab. Paweł Żyliński, prof. UG",3.13,laboratorium,"zajęcia co dwa tygodnie",2026-10-01,2027-01-28
+Czwartek,8,2,"Procesy stochastyczne","modelowanie mat. 2 st.: I rok","dr hab. Anita Dąbrowska",D003,wykład,,2026-10-01,2027-01-28
+Czwartek,8,2,"Numeryczne modelowanie układów dynamicznych",,"dr Paweł Klinga",D001,wykład,,2026-10-01,2027-01-28
+Czwartek,8,2,"Procesy stochastyczne","matematyka 2 st.: I rok sp. finansowa+matematyka 2 st.: I rok sp. teoretyczna","dr Monika Wrzosek",A303,wykład,,2026-10-01,2027-01-28
+Czwartek,8,2,"Seminarium licencjackie",,"dr Elżbieta Mrożek, prof. UG",A113,seminarium,,2026-10-01,2027-01-28
+Czwartek,8,2,"Optymalizacja kombinatoryczna 2","informatyka (O): III rok","dr hab. Paweł Żyliński, prof. UG",2.04,wykład,"zajęcia co dwa tygodnie",2026-10-01,2027-01-28
+Czwartek,8,2,"Język angielski 3","informatyka (O): II rok gr. 2","mgr Piotr Bohdziewicz",A319,lektorat,,2026-10-01,2027-01-28
+Czwartek,8,2,"Matematyka dyskretna","informatyka (O): I rok gr. 1","dr inż. Agnieszka Rowińska-Schwarzweller",A218,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,10,2,"Wstęp do programowania","modelowanie mat.: I rok gr. 3","mgr Anna Wąsik-Zejdler",A101,laboratorium,,2026-10-01,2027-01-28
+Czwartek,10,2,"Zaawansowane języki programowania","informatyka 2 st.: I rok gr. 1","mgr Łukasz Mielewczyk",3.13,laboratorium,,2026-10-01,2027-01-28
+Czwartek,10,2,"Podstawy kryptografii",,"dr Andrzej Borzyszkowski",A001,laboratorium,"zajęcia co dwa tygodnie",2026-10-01,2027-01-28
+Czwartek,10,2,"Język angielski 3","matematyka: II rok","mgr Joanna Chmielewska",A301,lektorat,10.00-11.30,2026-10-01,2027-01-28
+Czwartek,10,2,"Seminarium licencjackie",,"dr Adrian Karpowicz",A202,seminarium,,2026-10-01,2027-01-28
+Czwartek,10,2,"Seminarium licencjackie",,"dr Krzysztof Kowitz",A319,seminarium,,2026-10-01,2027-01-28
+Czwartek,10,2,"Seminarium magisterskie",,"dr hab. Rafał Filipów, prof. UG",2.16,seminarium,,2026-10-01,2027-01-28
+Czwartek,10,2,"Modelowanie w matematyce szkolnej","matematyka: III rok sp. nauczycielska","mgr Weronika Figurska-Zięba",A218,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,10,2,"Wstęp do matematyki","informatyka (O): I rok gr. 1","dr hab. Jerzy Topp, prof. UG",A320,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,10,2,"Podstawy kryptografii",,"dr Andrzej Borzyszkowski",D001,wykład,"zajęcia co dwa tygodnie",2026-10-01,2027-01-28
+Czwartek,10,2,"Seminarium magisterskie",,"dr hab. Rafał Lutowski",A303,seminarium,,2026-10-01,2027-01-28
+Czwartek,10,2,"Język angielski","modelowanie mat. 2 st.: I rok","mgr Piotr Bohdziewicz",A302,lektorat,,2026-10-01,2027-01-28
+Czwartek,12,2,"Język angielski 1","informatyka 2 st.: I rok gr. 1","mgr Andrzej Szabała",A319,lektorat,,2026-10-01,2027-01-28
+Czwartek,12,2,"Podstawy kryptografii",,"dr Andrzej Borzyszkowski",A001,laboratorium,,2026-10-01,2027-01-28
+Czwartek,12,2,"Obliczalność i złożoność","informatyka 2 st.: I rok gr. 2","dr inż. Anna Nenca",2.14,ćwiczenia,"zajęcia od 8 X",2026-10-08,2027-01-28
+Czwartek,12,2,"Sztuczna inteligencja w edukacji matematycznej",,"dr Elżbieta Mrożek, prof. UG",A301,wykład,,2026-10-01,2027-01-28
+Czwartek,12,2,"Algorytmy i struktury danych I","informatyka (O): II rok","dr Paweł Pączkowski",1.14,wykład,11.35-14.00,2026-10-01,2027-01-28
+Czwartek,12,2,"Warsztat programisty","informatyka (P): I rok gr. 1","mgr Michał Zakrzewski",3.11,laboratorium,,2026-10-01,2027-01-28
+Czwartek,12,2,"Wstęp do matematyki","matematyka: I rok","dr Marta Kwela",D001,wykład,,2026-10-01,2027-01-28
+Czwartek,12,2,"Język angielski 1","informatyka (P): I rok gr. 2","mgr Irena Moszczyńska-Janicka",2.04,lektorat,12.00-13.30,2026-10-01,2027-01-28
+Czwartek,12,3,"Rachunek prawdopodobieństwa","matematyka: III rok","dr Jacek Tryba",A303,ćwiczenia,12.00-14.30,2026-10-01,2027-01-28
+Czwartek,12,2,"Algorytmy i struktury danych","modelowanie mat.: II rok+matematyka: II rok","dr Paweł Pączkowski"," 1.14",wykład,11.35-14.00,2026-10-01,2027-01-28
+Czwartek,12,2,"Wnioskowanie statystyczne I","modelowanie mat.: III rok","dr Janusz Przewocki",D003,wykład,,2026-10-01,2027-01-28
+Czwartek,12,2,"Analiza matematyczna I","modelowanie mat.: I rok gr. 3","dr Milena Matusik",A302,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,12,2,"Matematyka dyskretna","informatyka (O): I rok gr. 2","dr inż. Agnieszka Rowińska-Schwarzweller",A218,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,12,2,"Wstęp do matematyki","informatyka (O): I rok gr. 3","dr hab. Jerzy Topp, prof. UG",A320,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,14,2,"Sztuczna inteligencja w edukacji matematycznej",,"dr Elżbieta Mrożek, prof. UG",A301,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,14,2,"Analiza matematyczna III","matematyka: II rok","dr hab. Piotr Szuca, prof. UG",A218,wykład,,2026-10-01,2027-01-28
+Czwartek,14,2,"Analiza matematyczna III","modelowanie mat.: II rok","dr hab. Filip Strobin, prof. UG",D001,wykład,,2026-10-01,2027-01-28
+Czwartek,14,2,"Język angielski 1","informatyka (P): I rok gr. 1","mgr Irena Moszczyńska-Janicka",2.04,lektorat,13.45-15.15,2026-10-01,2027-01-28
+Czwartek,14,2,"Warsztat programisty","informatyka (P): I rok gr. 2","mgr Michał Zakrzewski",3.11,laboratorium,,2026-10-01,2027-01-28
+Czwartek,14,2,"Współczesne zastosowania informatyki","informatyka (P): II rok",,,laboratorium,"dokładne terminy zostaną podane później; zajęcia zdalne",2026-10-01,2027-01-28
+Czwartek,14,2,"Numeryczne modelowanie układów dynamicznych",,"dr Paweł Klinga",A015,laboratorium,,2026-10-01,2027-01-28
+Czwartek,14,2,"Analiza matematyczna I","matematyka: I rok gr. 2","dr Aleksandra Nowel",A319,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,14,1,"Programowanie w języku Rust",,"dr Piotr Arłukowicz, prof. UG",A202,wykład,,2026-10-01,2027-01-28
+Czwartek,14,2,"Algebra liniowa I","modelowanie mat.: I rok","dr hab. Michał Stukow, prof. UG",D003,wykład,,2026-10-01,2027-01-28
+Czwartek,14,2,"Programowanie obiektowe","informatyka (O): II rok gr. 1","mgr Szymon Poszwa",3.05,laboratorium,,2026-10-01,2027-01-28
+Czwartek,14,2,"Analiza matematyczna I","matematyka: I rok gr. 3","dr Iwona Krzyżanowska",A320,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,14,2,"Teoria grafów i sieci","informatyka 2 st.: I rok gr. 2","dr hab. Paweł Żyliński, prof. UG",3.13,laboratorium,,2026-10-01,2027-01-28
+Czwartek,14,2,"Programowanie współbieżne",,"dr Paweł Pączkowski",3.04,laboratorium,"gr. 3",2026-10-01,2027-01-28
+Czwartek,14,2,"Teoria grafów i sieci","informatyka 2 st.: I rok gr. 1","dr Hanna Furmańczyk",A001,laboratorium,,2026-10-01,2027-01-28
+Czwartek,14,2,"Wstęp do matematyki","informatyka (O): I rok","dr hab. Jerzy Topp, prof. UG",1.14,wykład,,2026-10-01,2027-01-28
+Czwartek,14,2,"Analiza matematyczna I","matematyka: I rok gr. 1","dr Szymon Myga",A302,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,14,2,"Programowanie zorientowane na dane","modelowanie mat. 2 st.: I rok","dr Janusz Przewocki",A101,laboratorium,,2026-10-01,2027-01-28
+Czwartek,14,2,"Wstęp do technologii Web","informatyka (P): I rok gr. 3","mgr Aleksandra Laskowska",A102,laboratorium,"zajęcia od 8 X do 26 XI",2026-10-08,2026-11-26
+Czwartek,15,1,"Programowanie w języku Rust",,"dr Piotr Arłukowicz, prof. UG",A202,laboratorium,,2026-10-01,2027-01-28
+Czwartek,15,1,"Funkcje analityczne I","matematyka: III rok sp. ogólna","dr Adrian Karpowicz",A303,ćwiczenia,14.45-16.15,2026-10-01,2027-01-28
+Czwartek,16,2,"Teoria grafów i sieci","informatyka 2 st.: I rok","dr Hanna Furmańczyk",D001,wykład,,2026-10-01,2027-01-28
+Czwartek,16,2,"Programowanie grafiki 3D w OpenGL",,"dr Maciej Dziemiańczuk",1.14,wykład,,2026-10-01,2027-01-28
+Czwartek,16,2,"Matematyka elementarna","informatyka (P): I rok gr. 2","dr inż. Monika Rosicka",2.14,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,16,3,"Wstęp do programowania","informatyka (P): I rok gr. 3","mgr Szymon Poszwa",3.05,laboratorium,,2026-10-01,2027-01-28
+Czwartek,16,2,"Algorytmy i struktury danych","modelowanie mat.: II rok gr. 2","mgr Anna Wąsik-Zejdler",A102,laboratorium,,2026-10-01,2027-01-28
+Czwartek,16,2,"Warsztat programisty","informatyka (P): I rok gr. 4","mgr Michał Zakrzewski",3.04,laboratorium,,2026-10-01,2027-01-28
+Czwartek,16,2,"Wstęp do technologii Web","informatyka (P): I rok gr. 1","mgr Aleksandra Tejszerska-Rzeźnik",3.11,laboratorium,"zajęcia od 8 X do 26 XI",2026-10-08,2026-11-26
+Czwartek,16,2,"Wprowadzenie do grafiki 3D",,"dr Piotr Arłukowicz, prof. UG",A202,laboratorium,"gr. 1",2026-10-01,2027-01-28
+Czwartek,16,2,"Wstęp do matematyki","modelowanie mat.: I rok gr. 2","mgr Jakub Szmelter-Tomczuk",A301,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,16,2,"Wstęp do programowania","informatyka (O): I rok gr. 2","mgr Leonard Sikorski",A001,laboratorium,,2026-10-01,2027-01-28
+Czwartek,16,2,"Algebra liniowa I","modelowanie mat.: I rok gr. 3","dr Marek Hałenda",A218,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,16,2,"Transport optymalny",,"dr Szymon Myga",A015,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,16,2,"Wstęp do matematyki","matematyka: I rok gr. 2","dr Aleksandra Nowel",A319,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,16,2,"Wstęp do matematyki","modelowanie mat.: I rok gr. 1","dr Paweł Klinga",A320,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,16,2,"Wnioskowanie statystyczne I","modelowanie mat.: III rok gr. 1/modelowanie mat.: III rok gr. 2","dr Nikodem Mrożek",3.13,laboratorium,"grupy na zmianę co 2 tygodnie",2026-10-01,2027-01-28
+Czwartek,18,2,"Wprowadzenie do grafiki 3D",,"dr Piotr Arłukowicz, prof. UG",A202,laboratorium,"gr. 2",2026-10-01,2027-01-28
+Czwartek,18,2,"Wstęp do technologii Web","informatyka (P): I rok gr. 4","mgr Aleksandra Tejszerska-Rzeźnik",3.11,laboratorium,"zajęcia od 8 X do 26 XI",2026-10-08,2026-11-26
+Czwartek,18,2,"Zaawansowane bazy danych i inżynieria danych","informatyka 2 st.: I rok gr. 2","mgr Grzegorz Madejski",3.04,laboratorium,"zajęcia od 8 X",2026-10-08,2027-01-28
+Czwartek,18,2,"Programowanie grafiki 3D w OpenGL",,"dr Maciej Dziemiańczuk",A001,laboratorium,,2026-10-01,2027-01-28
+Czwartek,18,2,"Transport optymalny",,"dr Szymon Myga",D003,wykład,,2026-10-01,2027-01-28
+Piątek,8,4,"Przygotowanie do projektu zespołowego","modelowanie mat. 2 st.: I rok gr. 2","mgr Beata Judzińska",C209,laboratorium,"zajęcia w budynku Wydziału Chemii",2026-10-02,2027-01-29
+Piątek,8,2,"Wstęp do matematyki","modelowanie mat.: I rok gr. 1","dr Paweł Klinga",A301,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,8,2,"Wstęp do technologii Web","informatyka (O): I rok gr. 1","mgr Aleksandra Tejszerska-Rzeźnik",3.11,laboratorium,,2026-10-02,2027-01-29
+Piątek,8,4,"Projekt zespołowy II","modelowanie mat. 2 st.: II rok","dr hab. Rafał Lutowski",,laboratorium,"zajęcia zdalne",2026-10-02,2027-01-29
+Piątek,8,2,"Wstęp do technologii Web","informatyka (P): I rok gr. 2","mgr Aleksandra Laskowska",A202,laboratorium,"zajęcia od 9 X do 27 XI",2026-10-09,2026-11-27
+Piątek,8,4,"Przygotowanie do projektu zespołowego","modelowanie mat. 2 st.: I rok gr. 1","mgr inż. Michał Kałapus",C309,laboratorium,"zajęcia w budynku Wydziału Chemii",2026-10-02,2027-01-29
+Piątek,8,2,"Matematyka dyskretna","informatyka (O): I rok gr. 2","dr inż. Agnieszka Rowińska-Schwarzweller",A218,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,8,2,"Obliczalność i złożoność","informatyka 2 st.: I rok gr. 1","mgr Maciej Stankiewicz",2.04,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,8,2,"Analiza matematyczna III","modelowanie mat.: II rok gr. 2","dr Jacek Tryba",A302,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,8,7,"Praktyka nauczania matematyki 1 w szkole ponadpodstawowej II","matematyka 2 st.: II rok sp. nauczycielska","dr Agnieszka Demby+mgr Weronika Figurska-Zięba",,praktyka,,2026-10-02,2027-01-29
+Piątek,8,2,"Język angielski III","informatyka (P): II rok gr. 1","mgr Waldemar Nehring",2.14,lektorat,8.30-10.00,2026-10-02,2027-01-29
+Piątek,8,2,"Algebra I","matematyka: II rok sp. ogólna","dr hab. Michał Stukow, prof. UG",A303,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,8,2,"Język angielski","matematyka 2 st.: I rok sp. nauczycielska+matematyka 2 st.: II rok sp. finansowa+matematyka 2 st.: II rok sp. teoretyczna","mgr Piotr Bohdziewicz",A320,lektorat,,2026-10-02,2027-01-29
+Piątek,9,3,"Rachunek prawdopodobieństwa","matematyka: III rok","dr hab. Piotr Szuca, prof. UG",A319,wykład,,2026-10-02,2027-01-29
+Piątek,10,2,"Analiza matematyczna I","modelowanie mat.: I rok","dr hab. Barbara Wolnik, prof. UG",D003,wykład,10.30-12.00,2026-10-02,2027-01-29
+Piątek,10,2,"Algebra I","matematyka: II rok sp. nauczycielska","dr hab. Michał Stukow, prof. UG",A303,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,10,2,"Wstęp do matematyki","informatyka (O): I rok gr. 2","dr hab. Jerzy Topp, prof. UG",2.04,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,10,2,"Analiza matematyczna III","modelowanie mat.: II rok gr. 1","dr Jacek Tryba",A302,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,10,2,"Systemy operacyjne","informatyka (P): II rok gr. 1","mgr Radosław Ziemann",3.13,laboratorium,,2026-10-02,2027-01-29
+Piątek,10,2,"Wstęp do programowania","informatyka (P): I rok","dr Jakub Neumann, prof. UG",1.14,wykład,"9 X nie będzie wykładu; zajęcia do 27 XI",2026-10-02,2026-11-27
+Piątek,10,2,"Matematyka dyskretna","informatyka (O): I rok gr. 1","dr inż. Agnieszka Rowińska-Schwarzweller",2.14,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,10,2,"Język angielski 3","informatyka (O): II rok gr. 1","mgr Piotr Bohdziewicz",A320,lektorat,,2026-10-02,2027-01-29
+Piątek,10,2,"Logika dla informatyków","informatyka 2 st.: I rok","dr Andrzej Borzyszkowski",1.15,wykład,,2026-10-02,2027-01-29
+Piątek,10,2,"Modelowanie matematyczne","informatyka (P): II rok gr. 2","dr Joanna Czarnowska",3.04,laboratorium,,2026-10-02,2027-01-29
+Piątek,10,2,"Oprogramowanie matematyczne","matematyka: II rok sp. ogólna","dr hab. Andrzej Nowik, prof. UG",A101,laboratorium,,2026-10-02,2027-01-29
+Piątek,10,2,"Wstęp do matematyki","matematyka: I rok","dr Marta Kwela",D001,wykład,,2026-10-02,2027-01-29
+Piątek,10,2,"Technologie .NET",,"dr Tomasz Borzyszkowski",A218,wykład,,2026-10-02,2027-01-29
+Piątek,10,2,"Zaawansowana analiza matematyczna","matematyka 2 st.: I rok","prof. dr hab. Tomasz Natkaniec",A301,wykład,,2026-10-02,2027-01-29
+Piątek,10,2,"Frontend development II",,"mgr Aleksandra Tejszerska-Rzeźnik",3.11,wykład,,2026-10-02,2027-01-29
+Piątek,12,2,"Równania różniczkowe","matematyka: III rok","dr hab. Tomasz Człapiński, prof. UG",D003,wykład,,2026-10-02,2027-01-29
+Piątek,12,2,"Język angielski 3","informatyka (O): II rok gr. 2","mgr Piotr Bohdziewicz",A320,lektorat,,2026-10-02,2027-01-29
+Piątek,12,2,"Programowanie obiektowe",,"dr hab. Michał Stukow, prof. UG",1.15,wykład,,2026-10-02,2027-01-29
+Piątek,12,2,"Logika dla informatyków","informatyka 2 st.: I rok gr. 1","dr Andrzej Borzyszkowski",A202,laboratorium,,2026-10-02,2027-01-29
+Piątek,12,2,"Wstęp do matematyki","modelowanie mat.: I rok gr. 2","mgr Jakub Szmelter-Tomczuk",A319,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,12,2,"Zaawansowana analiza matematyczna","matematyka 2 st.: I rok","prof. dr hab. Tomasz Natkaniec",A301,ćwiczenia,"ćwiczenia lub wykład",2026-10-02,2027-01-29
+Piątek,12,2,"Systemy operacyjne","informatyka (P): II rok gr. 2","mgr Radosław Ziemann",3.13,laboratorium,,2026-10-02,2027-01-29
+Piątek,12,4,"Wstęp do programowania","informatyka (O): I rok gr. 1","dr inż. Kamila Mazur-Oleszczuk",3.11,laboratorium,,2026-10-02,2027-01-29
+Piątek,12,2,"Technologie .NET",,"dr Tomasz Borzyszkowski",3.05,laboratorium,,2026-10-02,2027-01-29
+Piątek,12,2,"Algebra I","matematyka: II rok","dr hab. Andreas Zastrow, prof. UG",D001,wykład,,2026-10-02,2027-01-29
+Piątek,12,2,"Tutorial I","matematyka: I rok gr. 1/matematyka: I rok gr. 2/matematyka: I rok gr. 3","dr Marta Kwela",A302,ćwiczenia,"grupy na zmianę co 3 tygodnie",2026-10-02,2027-01-29
+Piątek,12,2,"Algorytmy przetwarzania obrazów cyfrowych",,"dr inż. Agnieszka Rowińska-Schwarzweller",A102,laboratorium,"gr. 3",2026-10-02,2027-01-29
+Piątek,12,2,"Analiza matematyczna I","modelowanie mat.: I rok gr. 1","dr hab. Barbara Wolnik, prof. UG",A303,ćwiczenia,12.30-14.00,2026-10-02,2027-01-29
+Piątek,12,2,"Wstęp do technologii Web","informatyka (P): I rok","mgr Aleksandra Tejszerska-Rzeźnik",1.14,wykład,"zajęcia do 20 XI",2026-10-02,2026-11-20
+Piątek,12,2,"Język angielski 1","informatyka 2 st.: I rok gr. 2","mgr Andrzej Szabała",2.04,lektorat,,2026-10-02,2027-01-29
+Piątek,12,2,"Wstęp do technologii Web","informatyka (O): I rok gr. 2","mgr Aleksandra Laskowska",A015,laboratorium,,2026-10-02,2027-01-29
+Piątek,12,2,"Modelowanie matematyczne","informatyka (P): II rok gr. 3","dr Joanna Czarnowska",3.04,laboratorium,,2026-10-02,2027-01-29
+Piątek,12,2,"Seminarium licencjackie",,"dr Szymon Myga",A113,seminarium,,2026-10-02,2027-01-29
+Piątek,14,2,"Frontend development II",,"mgr Aleksandra Tejszerska-Rzeźnik",3.04,laboratorium,,2026-10-02,2027-01-29
+Piątek,14,2,"Algorytmy i struktury danych","matematyka 2 st.: I rok sp. nauczycielska","dr hab. Błażej Szepietowski, prof. UG",D001,wykład,,2026-10-02,2027-01-29
+Piątek,14,2,"Wstęp do programowania","informatyka (O): I rok gr. 2","mgr Leonard Sikorski",A001,laboratorium,,2026-10-02,2027-01-29
+Piątek,14,1,"ABC mikroprzedsiębiorczości","fizyka: I rok+matematyka: II rok sp. nauczycielska+modelowanie mat.: III rok+matematyka: III rok sp. ogólna","dr Ewa Ignaciuk",D003,wykład,,2026-10-02,2027-01-29
+Piątek,14,2,"Analiza matematyczna I","matematyka: I rok gr. 1","dr Szymon Myga",A302,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,14,2,"Programowanie obiektowe","informatyka (O): II rok","dr Tomasz Borzyszkowski",1.14,wykład,,2026-10-02,2027-01-29
+Piątek,14,2,"Modelowanie matematyczne","informatyka (P): II rok","dr Joanna Czarnowska",1.15,wykład,,2026-10-02,2027-01-29
+Piątek,14,2,"Dydaktyka matematyki w szkole podstawowej I","matematyka: III rok sp. nauczycielska","dr Elżbieta Mrożek, prof. UG",A303,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,14,2,"Technologie sieci Web",,"dr hab. Wiesław Pawłowski",3.13,laboratorium,,2026-10-02,2027-01-29
+Piątek,14,2,"Analiza matematyczna III","matematyka: II rok sp. ogólna","dr Nikodem Mrożek",A301,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,14,2,"Programowanie obiektowe",,"dr hab. Michał Stukow, prof. UG",A015,laboratorium,"gr. 1",2026-10-02,2027-01-29
+Piątek,14,2,"Algebra liniowa I","modelowanie mat.: I rok gr. 2","dr Marek Hałenda",A320,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,14,2,"Logika dla informatyków","informatyka 2 st.: I rok gr. 2","dr Andrzej Borzyszkowski",A202,laboratorium,,2026-10-02,2027-01-29
+Piątek,15,1,Mikroprzedsiębiorczość,"informatyka 2 st.: I rok gr. 1","dr Ewa Ignaciuk",D003,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,15,2,"Procesy stochastyczne: podstawy i zastosowania","modelowanie mat.: III rok gr. 1/modelowanie mat.: III rok gr. 2","prof. dr hab. Marcin Wieśniak",A218,ćwiczenia,"grupy na zmianę co 2 tygodnie",2026-10-02,2027-01-29
+Piątek,16,2,"Technologie sieci Web",,"dr hab. Wiesław Pawłowski",1.15,wykład,,2026-10-02,2027-01-29
+Piątek,16,2,"Testowanie automatyczne","informatyka (P): II rok","dr Tomasz Borzyszkowski",1.14,wykład,"zajęcia co dwa tygodnie",2026-10-02,2027-01-29
+Piątek,16,2,"Algorytmy i struktury danych I","informatyka (O): II rok gr. 2","dr inż. Kamila Mazur-Oleszczuk",3.11,laboratorium,,2026-10-02,2027-01-29
+Piątek,16,2,"Seminarium magisterskie I",,promotorzy,3.04,laboratorium,,2026-10-02,2027-01-29
+Piątek,16,2,"Analiza matematyczna III","matematyka: II rok sp. nauczycielska","dr Nikodem Mrożek",A301,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,16,1,Mikroprzedsiębiorczość,"informatyka 2 st.: I rok+matematyka 2 st.: I rok sp. finansowa","dr Ewa Ignaciuk",D003,wykład,,2026-10-02,2027-01-29
+Piątek,16,2,"Rachunek prawdopodobieństwa i statystyka","informatyka (O): II rok gr. 1","dr inż. Monika Rosicka",A001,laboratorium,,2026-10-02,2027-01-29
+Piątek,17,1,Mikroprzedsiębiorczość,"informatyka 2 st.: I rok gr. 2+matematyka 2 st.: I rok sp. finansowa","dr Ewa Ignaciuk",D003,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,18,2,"Filozofia nauki","fizyka II st.: I rok+informatyka 2 st.: I rok+matematyka 2 st.: I rok sp. finansowa+fizyka medyczna II st.: II rok","dr Tomasz Kąkol",1.14,wykład,"zajęcia do 20 XI",2026-10-02,2026-11-20

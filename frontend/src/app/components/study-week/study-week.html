@@ -1,3 +1,14 @@
-<div class="week">
-  
+<div class="week" [style.--days]="days().length">
+    @for (day of days(); track day.weekday) {
+        <section class="day">
+            <h3 class="day-title">{{ day.label }}</h3>
+            <div class="day-items">
+                @for (item of day.items; track item.id) {
+                    <app-subject-card [item]="item" [viewMode]="viewMode()" />
+                } @empty {
+                    <span class="empty">Brak zajęć</span>
+                }
+            </div>
+        </section>
+    }
 </div>

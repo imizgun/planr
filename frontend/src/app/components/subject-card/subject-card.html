@@ -1,1 +1,77 @@
-<p>subject-card works!</p>
+@let it = item();
+@let eff = it.effective;
+
+<div class="header">
+    <span
+        class="time"
+        [class.patched]="timePatched()"
+        [pTooltip]="timePatched() ? 'Godziny zmienione na podstawie uwag w planie' : undefined"
+    >
+        {{ eff.start_time }}–{{ eff.end_time }}
+    </span>
+    @if (it.remark.raw) {
+        <i
+            class="pi pi-info-circle remark-icon"
+            [pTooltip]="it.remark.raw"
+            tooltipPosition="top"
+        ></i>
+    }
+</div>
+
+<div class="course">{{ it.course.name }}</div>
+
+<div class="tags">
+    @if (it.type) {
+        <p-tag [value]="it.type" [severity]="typeSeverity()" />
+    }
+    @if (it.group && !it.group.program_wide && it.group.label) {
+        <p-tag [value]="it.group.label" severity="secondary" />
+    }
+    @if (isRemote()) {
+        <p-tag value="zdalnie" severity="danger" icon="pi pi-wifi" />
+    }
+</div>
+
+<dl class="details">
+    @if (teachers()) {
+        <div>
+            <i class="pi pi-user"></i>
+            <dd>{{ teachers() }}</dd>
+        </div>
+    }
+    @if (it.room) {
+        <div>
+            <i class="pi pi-map-marker"></i>
+            <dd>{{ it.room }}</dd>
+        </div>
+    }
+    @if (eff.date_from || eff.date_to) {
+        <div>
+            <i class="pi pi-calendar"></i>
+            <dd>
+                @if (eff.date_from) {
+                    od {{ eff.date_from | date: 'd.MM' }}
+                }
+                @if (eff.date_to) {
+                    do {{ eff.date_to | date: 'd.MM' }}
+                }
+            </dd>
+        </div>
+    }
+</dl>
+
+@if (viewMode() === 'annotated') {
+    <div class="annotations">
+        @if (it.remark.raw) {
+            <p class="remark" [class.needs-review]="it.remark.needs_review">{{ it.remark.raw }}</p>
+        }
+        <div class="proposals">
+            <i class="pi pi-comments"></i>
+            @if (it.proposals.length) {
+                {{ it.proposals.length }} uwag użytkowników
+            } @else {
+                Brak uwag użytkowników
+            }
+        </div>
+    </div>
+}
