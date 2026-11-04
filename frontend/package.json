@@ -18,9 +18,9 @@
     "@angular/forms": "^22.2.0",
     "@angular/platform-browser": "^22.2.0",
     "@angular/router": "^22.2.0",
-    "@primeuix/themes": "^3.1.0",
+    "@primeuix/themes": "^2.0.3",
     "primeicons": "^8.0.2",
-    "primeng": "^22.1.4",
+    "primeng": "~21.1.10",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0"
   },
@@ -32,5 +32,15 @@
     "prettier": "^3.8.1",
     "typescript": "~6.0.2",
     "vitest": "^5.0.0"
+  },
+  "overrides": {
+    "primeng": {
+      "@angular/cdk": "$@angular/cdk",
+      "@angular/core": "$@angular/core",
+      "@angular/forms": "$@angular/forms",
+      "@angular/common": "$@angular/common",
+      "@angular/router": "$@angular/router",
+      "@angular/platform-browser": "$@angular/platform-browser"
+    }
   }
 }

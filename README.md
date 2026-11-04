@@ -31,3 +31,10 @@ python -m app.cli fetch         # download the main plan (`…&format=csv`) and 
 python -m app.cli ingest-file tests/fixtures/main_plan.csv   # offline alternative
 uvicorn app.main:app --reload   # API on http://localhost:8000 (docs: /docs)
 ```
+
+
+TODO:
+- Current time marker
+- Facultatives support
+- Timeline
+- Mobile view
