@@ -2,13 +2,19 @@
 @let eff = it.effective;
 
 <div class="header">
-    <span
-        class="time"
-        [class.patched]="timePatched()"
-        [pTooltip]="timePatched() ? 'Godziny zmienione na podstawie uwag w planie' : undefined"
-    >
-        {{ eff.start_time }}–{{ eff.end_time }}
-    </span>
+    <div class="course">{{ it.course.name }}</div>
+    @if (timePatched()) {
+        <i
+            class="pi pi-clock time-patched-icon"
+            [pTooltip]="
+                'Godziny zmienione na podstawie uwag w planie: ' +
+                eff.start_time +
+                '–' +
+                eff.end_time
+            "
+            tooltipPosition="top"
+        ></i>
+    }
     @if (it.remark.raw) {
         <i
             class="pi pi-info-circle remark-icon"
@@ -17,8 +23,6 @@
         ></i>
     }
 </div>
-
-<div class="course">{{ it.course.name }}</div>
 
 <div class="tags">
     @if (it.type) {

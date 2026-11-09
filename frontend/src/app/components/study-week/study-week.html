@@ -1,14 +1,66 @@
-<div class="week" [style.--days]="days().length">
+<ng-template #rail>
+    <div class="rail">
+        <div></div>
+        <div class="rail-body">
+            @for (hour of hours(); track hour.label) {
+                @if (!hour.coveredByNow) {
+                    <span class="hour" [style.top.%]="hour.top">{{ hour.label }}</span>
+                }
+            }
+            @if (nowTop() !== null) {
+                <span class="hour now" [style.top.%]="nowTop()">{{ now() | date: 'HH:mm' }}</span>
+            }
+        </div>
+    </div>
+</ng-template>
+
+<div
+    class="week"
+    [style.--days]="days().length"
+    [style.--hours]="hours().length - 1"
+    (pointerdown)="onPointerDown($event)"
+    (pointerup)="onPointerUp($event)"
+    (pointercancel)="onPointerCancel()"
+>
+    <ng-container [ngTemplateOutlet]="rail" />
     @for (day of days(); track day.weekday) {
-        <section class="day">
-            <h3 class="day-title">{{ day.label }}</h3>
-            <div class="day-items">
-                @for (item of day.items; track item.id) {
-                    <app-subject-card [item]="item" [viewMode]="viewMode()" />
+        <section
+            class="day"
+            [class.today]="day.weekday === highlightedDay()"
+            [class.active]="day.weekday === activeDay().weekday"
+        >
+            <h3 class="day-title">
+                <span>
+                    {{ day.label
+                    }}<span class="phone-date">, {{ activeDate() | date: 'd.MM' }}</span>
+                </span>
+                @if (day.weekday === highlightedDay()) {
+                    <span class="today-date">{{ now() | date: 'd.MM' }}</span>
+                }
+            </h3>
+            <div class="day-body">
+                @for (slot of day.slots; track slot.item.id) {
+                    <div
+                        class="slot"
+                        [style.top.%]="slot.top"
+                        [style.left.%]="slot.left"
+                        [style.width.%]="slot.width"
+                        [style.--slot-height]="slot.height + '%'"
+                    >
+                        <app-subject-card [item]="slot.item" [viewMode]="viewMode()" />
+                    </div>
                 } @empty {
                     <span class="empty">Brak zajęć</span>
+                }
+                @if (nowTop() !== null) {
+                    <div
+                        class="now-line"
+                        [class.current]="day.weekday === highlightedDay()"
+                        [style.top.%]="nowTop()"
+                    ></div>
                 }
             </div>
         </section>
     }
+    <ng-container [ngTemplateOutlet]="rail" />
 </div>

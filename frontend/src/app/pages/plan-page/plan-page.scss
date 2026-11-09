@@ -39,3 +39,24 @@
     font-size: 0.75rem;
     text-align: right;
 }
+
+@media (max-width: 768px) {
+    .toolbar {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .program-select {
+        width: 100%;
+    }
+
+    .group-select {
+        flex: 1 1 8rem;
+        min-width: 0;
+        max-width: none;
+    }
+
+    .spacer {
+        display: none;
+    }
+}
