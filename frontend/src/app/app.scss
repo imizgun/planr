@@ -28,3 +28,13 @@
     flex: 1;
     padding: 1rem 1.5rem;
 }
+
+@media (max-width: 768px) {
+    .app-header {
+        padding: 0.5rem 0.75rem;
+    }
+
+    .app-main {
+        padding: 0.5rem;
+    }
+}
