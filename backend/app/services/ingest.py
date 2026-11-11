@@ -2,7 +2,7 @@
 import datetime as dt
 import hashlib
 import logging
-from collections.abc import Mapping
+from collections.abc import Mapping, Sequence
 from dataclasses import dataclass
 
 from sqlalchemy import delete, select
@@ -11,6 +11,7 @@ from sqlalchemy.orm import Session
 from app.models import Course, Group, Program, Slot, SlotRemark, SlotTarget, SlotTeacher, Snapshot, Teacher
 from app.parsing.csv_reader import RawRow, read_rows
 from app.parsing.groups import GroupRef, parse_group_field
+from app.parsing.merge import merge_sources
 from app.parsing.remarks import analyze_remark
 from app.parsing.teachers import split_teachers
 from app.services.crosscheck import cross_check
@@ -27,14 +28,16 @@ OFF_GRID_DAY = "TPP"  # rows outside the weekly grid
 class IngestReport:
     status: str  # ingested | unchanged
     version: str
-    rows: int = 0
+    rows: int = 0  # resulting slots (after merging dumps)
+    merged_rows: int = 0  # rows of later dumps merged into rows of earlier ones
     slots_active: int = 0
     slots_deactivated: int = 0
     needs_review: int = 0
 
 
-def content_version(content: bytes) -> str:
-    return hashlib.sha256(content).hexdigest()[:6]
+def content_version(contents: Sequence[bytes]) -> str:
+    """Short hash of all dumps together (a single dump hashes to the hash of its content)."""
+    return hashlib.sha256(b"\x00".join(contents)).hexdigest()[:6]
 
 
 def _slot_id(row: RawRow, elective_group: str | None, ordinal: int) -> str:
@@ -111,19 +114,23 @@ class _Lookups:
 
 def ingest(
     session: Session,
-    content: bytes,
+    content: bytes | Sequence[bytes],
     *,
     fetched_at: dt.datetime | None = None,
     force: bool = False,
     program_ids: Mapping[str, str] | None = None,
 ) -> IngestReport:
-    """Ingest a CSV dump. Unchanged content only refreshes fetched_at unless force is set.
+    """Ingest one CSV dump or several (one per source subsite), merged into a single snapshot.
+
+    Unchanged content only refreshes fetched_at unless force is set.
 
     program_ids maps programme names to the source website's ids (see fetcher.electives).
     """
     fetched_at = fetched_at or dt.datetime.now(dt.timezone.utc)
-    version = content_version(content)
-    rows = read_rows(content.decode("utf-8-sig"))  # validate before touching the database
+    contents = [content] if isinstance(content, (bytes, bytearray)) else list(content)
+    version = content_version(contents)
+    # validate every dump before touching the database
+    rows, merged_rows = merge_sources([read_rows(c.decode("utf-8-sig")) for c in contents])
 
     current = session.scalar(select(Snapshot).where(Snapshot.is_current))
     if current is not None and current.version == version and not force:
@@ -226,6 +233,7 @@ def ingest(
         version=version,
         rows=len(rows),
         slots_active=len(rows),
+        merged_rows=merged_rows,
         slots_deactivated=deactivated,
         needs_review=needs_review,
     )

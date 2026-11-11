@@ -55,7 +55,7 @@ def fetch_hubs(source: TextSource, urls: list[str] | None = None) -> list[HubInf
     """Download the hub pages; their footers carry the update timestamps used for change detection."""
     settings = get_settings()
     hubs = []
-    for url in urls or settings.source_hub_urls:
+    for url in urls or [site.hub_url for site in settings.source_sites]:
         html = source.get_text(url)
         hubs.append(HubInfo(url=url, html=html, updated_at=parse_footer_timestamp(html, settings.timezone)))
     return hubs
