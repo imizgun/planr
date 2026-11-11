@@ -12,7 +12,7 @@ from app.services.refresh import refresh
 
 def _print(report: IngestReport) -> None:
     print(
-        f"{report.status}: version={report.version} rows={report.rows} "
+        f"{report.status}: version={report.version} rows={report.rows} merged={report.merged_rows} "
         f"active={report.slots_active} deactivated={report.slots_deactivated} needs_review={report.needs_review}"
     )
 
@@ -25,7 +25,7 @@ def main(argv: list[str] | None = None) -> int:
     local = sub.add_parser(
         "ingest-file", help="Ingest a local CSV dump (offline development; programme ids are slugs)"
     )
-    local.add_argument("path", type=Path)
+    local.add_argument("paths", type=Path, nargs="+", help="one CSV dump per source site, in configuration order")
     local.add_argument("--force", action="store_true")
     args = parser.parse_args(argv)
 
@@ -44,7 +44,7 @@ def main(argv: list[str] | None = None) -> int:
                     f"unknown_programs={len(e.unknown_programs)} unknown_courses={len(e.unknown_courses)}"
                 )
         else:
-            _print(ingest(session, args.path.read_bytes(), force=args.force))
+            _print(ingest(session, [p.read_bytes() for p in args.paths], force=args.force))
     return 0
 
 

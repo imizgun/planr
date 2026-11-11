@@ -34,5 +34,6 @@ class SourceClient:
     def get_text(self, url: str) -> str:
         return self.get_bytes(url).decode("utf-8-sig")
 
-    def fetch_main_plan(self) -> bytes:
-        return self.get_bytes(self._settings.source_main_plan_url)
+    def fetch_plans(self) -> list[bytes]:
+        """The plan dump of every configured source site, in configuration order."""
+        return [self.get_bytes(site.plan_url) for site in self._settings.source_sites]

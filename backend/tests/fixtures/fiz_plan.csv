@@ -1,0 +1,269 @@
+dzien,godz,czas,przedmiot,grupa,nauczyciel,sala,typ,uwagi,dataod,datado
+TPP,0,3,"Proces leczenia onkologicznego od badania przesiewowego po radioterapię","fizyka medyczna II st.: II rok",,,wykład,,0000-00-00,0000-00-00
+Poniedziałek,8,4,"Chemia analityczna","bezpieczeństwo jądrowe: II rok","mgr Kornelia Kozłowska-Wysocka",C303,laboratorium,"zajęcia w budynku Wydziału Chemii; zajęcia do 7 XII",2026-10-05,2026-12-07
+Poniedziałek,8,3,"Psychologia z elementami psychologii klinicznej","fizyka medyczna: I rok gr. 1"," Michał Kuchczyński",2.14,laboratorium,"8.30-11.00; zajęcia od 30 XI do 11 I",2026-11-30,2027-01-11
+Poniedziałek,8,3,"Wprowadzenie do cyfrowego przetwarzania obrazów medycznych","fizyka medyczna: II rok","dr inż. Krzysztof Dorywalski",A005,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,8,3,"Psychologia z elementami psychologii klinicznej","fizyka medyczna: I rok gr. 2"," Michał Kuchczyński",2.14,laboratorium,"8.30-11.00; zajęcia od 19 X do 23 XI",2026-10-19,2026-11-23
+Poniedziałek,8,2,Matematyka,"bezpieczeństwo jądrowe: I rok gr. 2","dr Dorota Wejer",2.05,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,8,3,"Bioinformatyczna analiza sekwencji","bioinformatyka: II rok gr. 1","mgr Marcel Thiel",031,laboratorium,"8.15-11.15; zajęcia w budynku Międzyuczelnianego Wydziału Biotechnologii UG i GUMed; zajęcia od 12 X do 11 I",2026-10-12,2027-01-11
+Poniedziałek,8,2,"Język angielski III","fizyka medyczna: III rok+fizyka: III rok+bezpieczeństwo jądrowe: III rok","mgr Paula Rudzińska",2.16,,,2026-10-05,2027-01-25
+Poniedziałek,8,2,"^(D) Procesy fotofizyczne i fotochemiczne w układach molekularnych","fizyka II st.: I rok+fizyka II st.: II rok","dr Marta Miotke-Wasilczyk",3.14,wykład,8.30-10.00,2026-10-05,2027-01-25
+Poniedziałek,8,3,"Podstawy matematyki","fizyka: I rok","dr Joanna Gondek, prof. UG",2.13,ćwiczenia,"zajęcia do 9 XI",2026-10-05,2026-11-09
+Poniedziałek,8,3,Mechanika,"fizyka: I rok","dr Joanna Gondek, prof. UG",2.13,wykład,"zajęcia od 16 XI",2026-11-16,2027-01-25
+Poniedziałek,9,2,"Opracowanie danych pomiarowych","fizyka medyczna: I rok gr. 1","dr Justyna Barzowska",A102,laboratorium,"zajęcia do 23 XI",2026-10-05,2026-11-23
+Poniedziałek,9,2,"Opracowanie danych pomiarowych","bezpieczeństwo jądrowe: I rok gr. 1","dr Justyna Barzowska",A102,laboratorium,"zajęcia od 30 XI",2026-11-30,2027-01-25
+Poniedziałek,9,3,"Wstęp do fizyki współczesnej","fizyka: II rok","dr Agata Lazarowska",1.18,wykład,"wykład/ćwiczenia; zajęcia do 30 XI",2026-10-05,2026-11-30
+Poniedziałek,9,3,"Wstęp do fizyki współczesnej","fizyka: II rok","dr Agata Lazarowska",F219,laboratorium,"zajęcia w budynku Wydziału Chemii; zajęcia od 7 XII",2026-12-07,2027-01-25
+Poniedziałek,10,2,"Ewolucja materii i struktury Wszechświata","bioinformatyka: III rok","dr hab. Piotr Mucha, prof. UG",C211,laboratorium,"zajęcia w budynku Wydziału Chemii",2026-10-05,2027-01-25
+Poniedziałek,10,2,"Podstawy fizyki promieniowania jonizującego","fizyka medyczna: III rok","dr Jan Mierzejewski"," A107",ćwiczenia,"zajęcia do 30 XI",2026-10-05,2026-11-30
+Poniedziałek,10,2,"Chemia dla bioinformatyków","bioinformatyka: I rok","dr hab., Aleksandra Dąbrowska, prof. UG",D3,wykład,"zajęcia w budynku Wydziału Chemii",2026-10-05,2027-01-25
+Poniedziałek,10,4,"Pracownia fizyczna I Elektromagnetyzm - zjawiska falowe","fizyka: III rok","dr Patryk Kamiński",P33,laboratorium,"zajęcia do 7 XII",2026-10-05,2026-12-07
+Poniedziałek,10,2,"Fizyka jądra atomowego i cząstek elementarnych","bezpieczeństwo jądrowe: III rok","dr Jan Mierzejewski",A107,ćwiczenia,"zajęcia do 30 XI",2026-10-05,2026-11-30
+Poniedziałek,10,3,"Metody doświadczalne fizyki","fizyka II st.: I rok","dr Łukasz Sobolewski",2.05,wykład,,2026-10-05,2027-01-25
+Poniedziałek,11,4,"Paradoxes of Quantum Mechanics","quantum information technology: 1st yr","dr inż. Paweł Mazurek"," 1.17",lec.,"classes from 30 XI",2026-10-05,2027-01-25
+Poniedziałek,11,2,"Opracowanie danych pomiarowych","bezpieczeństwo jądrowe: I rok gr. 2","dr Justyna Barzowska",A102,laboratorium,"zajęcia od 30 XI",2026-11-30,2027-01-25
+Poniedziałek,11,2,"Optyka i fale","fizyka medyczna: II rok","dr Dzmitryi Ushakou",D005,wykład,,2026-10-05,2027-01-25
+Poniedziałek,11,2,"Opracowanie danych pomiarowych","fizyka medyczna: I rok gr. 2","dr Justyna Barzowska",A102,laboratorium,"zajęcia do 23 XI",2026-10-05,2026-11-23
+Poniedziałek,11,2,"Bioinformatyczna analiza sekwencji","bioinformatyka: II rok","dr hab. Stanisław Ołdziej, prof. UG",031,wykład,"11.30-13.15; Pierwszy wykład 10.15-12.00; zajęcia w budynku Międzyuczelnianego Wydziału Biotechnologii UG i GUMed; zajęcia do 30 XI",2026-10-05,2026-11-30
+Poniedziałek,11,3,"Podstawy biologii","bezpieczeństwo jądrowe: I rok gr. a","mgr Anna Barczak+mgr Anna Kujałowicz"," A202",laboratorium,"zajęcia w budynku Wydziału Biologii; zajęcia od 30 XI do 18 I",2026-11-30,2027-01-18
+Poniedziałek,11,2,"Podstawy mikroprzedsiębiorczośc","fizyka II st.: II rok","dr Ewa Ignaciuk",2.14,wykład,,2026-10-05,2027-01-25
+Poniedziałek,11,4,"Mathematical Methods of Quantum Information","quantum information technology: 1st yr","dr inż. Paweł Mazurek",1.17,lec.,"classes until 23 XI",2026-10-05,2027-01-25
+Poniedziałek,12,2,Matematyka,"fizyka medyczna: I rok gr. 1","dr hab. Tomasz Człapiński, prof. UG",2.16,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,12,3,"Metody matematyczne bioinformatyki - calculus","bioinformatyka: I rok","dr hab. Waldemar Kłobus",D001,wykład,,2026-10-05,2027-01-25
+Poniedziałek,12,3,"Metody obliczeniowe fizyki","fizyka: II rok","dr Anubhav Chaturvedi",A005,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Podstawy radiologii i kontrola jakości w radiologii","fizyka medyczna: III rok","mgr Anna Melkau",2.13,wykład,,2026-10-05,2027-01-25
+Poniedziałek,12,2,"Uczenie maszynowe","bioinformatyka: III rok","dr Artur Mirocki",D1,wykład,"zajęcia w budynku Wydziału Chemii; zajęcia do 23 XI",2026-10-05,2026-11-23
+Poniedziałek,12,3,"Elementy fizyki współczesnej","bezpieczeństwo jądrowe: II rok","dr Joanna Gondek, prof. UG",1.18,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,12,4,"Zaawansowana pracownia fizyczna","bezpieczeństwo jądrowe: III rok","dr Natalia Górecka+dr Paweł Rochowski",F219,laboratorium,"zajęcia w budynku Wydziału Chemii",2026-10-05,2027-01-25
+Poniedziałek,13,2,"Optyka i fale","fizyka medyczna: II rok","dr Dzmitryi Ushakou",2.05,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,13,3,"Fizyka jądra atomowego i cząstek elementarnych","fizyka medyczna II st.: I rok","dr inż. Angelina Łobejko",D005,wykład,,2026-10-05,2027-01-25
+Poniedziałek,13,3,"Bioinformatyczna analiza sekwencji","bioinformatyka: II rok gr. 2","dr Wioletta Żmudzińska",031,laboratorium,"od 12 X do 30 XI zajęcia w godz. 13.30-16.30<br/>od 7 XII do 21XII zajęcia w godz. 12 -15<br/>11 I w godz. 12.30 - 16.15; zajęcia w budynku Międzyuczelnianego Wydziału Biotechnologii UG i GUMed; zajęcia od 12 X do 11 I",2026-10-12,2027-01-11
+Poniedziałek,13,2,"^(D) Współczesne narzędzia programistyczne w fizyce: Projektowanie materiałów funkcyjnych z elementami Data Science i uczenia ma","fizyka II st.: I rok+fizyka II st.: II rok","dr Michał Mońka",3.04,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,13,3,"Opracowanie danych pomiarowych","fizyka: I rok gr. 2","dr Justyna Barzowska",A102,laboratorium,13.30-16.00,2026-10-05,2027-01-25
+Poniedziałek,14,2,Matematyka,"bezpieczeństwo jądrowe: I rok gr. 1","dr Danuta Jaruszewska-Walczak",2.16,ćwiczenia,14.00-15.30,2026-10-05,2027-01-25
+Poniedziałek,14,2,"Chemia medyczna","fizyka medyczna: I rok","mgr inż. Sylwia Grabowska",,wykład,"14.00-16.15; zajęcia zdalne; zajęcia od 9 XI",2026-11-09,2027-01-25
+Poniedziałek,14,2,"Podstawy radiologii i kontrola jakości w radiologii","fizyka medyczna: III rok","mgr Anna Melkau",2.13,laboratorium,,2026-10-05,2027-01-25
+Poniedziałek,14,3,"Podstawy biologii","bezpieczeństwo jądrowe: I rok gr. d","mgr Anna Barczak+mgr Anna Kujałowicz"," A202",laboratorium,"zajęcia w budynku Wydziału Biologii; zajęcia od 30 XI do 18 I",2026-11-30,2027-01-18
+Poniedziałek,14,2,"Fotochemia i fotofizyka w medycynie i farmacji","fizyka medyczna II st.: II rok","dr Marta Miotke-Wasilczyk",3.14,wykład,,2026-10-05,2027-01-25
+Poniedziałek,14,3,"Uczenie maszynowe","bioinformatyka: III rok gr. 1","mgr inż. Michał Kałapus",C211,laboratorium,"zajęcia w budynku Wydziału Chemii",2026-10-05,2027-01-25
+Poniedziałek,15,2,"Język angielski I","fizyka medyczna: II rok","mgr Irena Moszczyńska-Janicka",2.04,lektorat,15.30-17.00,2026-10-05,2027-01-25
+Poniedziałek,15,2,"^(T) Układy dynamiczne","fizyka II st.: I rok+fizyka II st.: II rok","dr hab. Waldemar Kłobus",2.05,wykład,"wykład, ćwiczenia, laboratorium po 10 godzin",2026-10-05,2027-01-25
+Poniedziałek,16,2,"Współczesne techniki radiologiczne","fizyka medyczna II st.: I rok","mgr inż. Michał Relich",,laboratorium,"możliwe uczestnictwo w zajęcia online w sali A102; zajęcia zdalne",2026-10-05,2027-01-25
+Poniedziałek,16,2,"Język angielski II","bioinformatyka: II rok","mgr Waldemar Nehring",A320,lektorat,16.15-17.45,2026-10-05,2027-01-25
+Poniedziałek,16,1,"Fotochemia i fotofizyka w medycynie i farmacji","fizyka medyczna II st.: II rok","dr Marta Miotke-Wasilczyk",3.14,ćwiczenia,,2026-10-05,2027-01-25
+Poniedziałek,17,1,"Seminarium dyplomowe I","fizyka II st.: II rok","prof. dr hab. Piotr Bojarski",2.14,seminarium,,2026-10-05,2027-01-25
+Poniedziałek,17,2,"Wykład ogólnouczelniany","bioinformatyka: I rok",,,wykład,"17.00-18.30; zajęcia zdalne",2026-10-05,2027-01-25
+Poniedziałek,17,2,"Wykład ogólnouczelniany","bezpieczeństwo jądrowe: III rok",,,wykład,"17.00-18.30; zajęcia zdalne",2026-10-05,2027-01-25
+Poniedziałek,17,2,"Mechanika klasyczna","fizyka: II rok","dr inż. Paweł Mazurek",A005,laboratorium,"zajęcia od 30 XI",2026-11-30,2027-01-25
+Poniedziałek,18,2,"Usługi sieciowe","bioinformatyka: III rok","dr hab. Rafał Ślusarz",,laboratorium,"zajęcia zdalne",2026-10-05,2027-01-25
+Poniedziałek,18,2,"Nowoczesne techniki w badaniach NMR","fizyka medyczna II st.: I rok","mgr inż. Michał Relich",,wykład,"możliwe uczestnictwo w zajęcia online w sali A102; zajęcia zdalne",2026-10-05,2027-01-25
+Wtorek,8,2,"Cytogenetyka i kontrola epigenetyczna","bioinformatyka: III rok","dr Joanna Rojek",C111,laboratorium,"zajęcia w budynku Wydziału Biologii",2026-10-06,2027-01-26
+Wtorek,8,3,"Podstawy matematyki","fizyka: I rok","dr Joanna Gondek, prof. UG",2.13,ćwiczenia,"zajęcia do 3 XI",2026-10-06,2026-11-03
+Wtorek,8,2,"Bioróżnorodność i podstawy taksonomii","bioinformatyka: I rok gr. d","dr Aleksandra Naczk",B205,laboratorium,"8.00-10.15; zajęcia w budynku Wydziału Biologii; zajęcia do 8 XII",2026-10-06,2026-12-08
+Wtorek,8,2,"Mathematical Optimization and Applications","quantum information technology: 2nd yr","dr Felix Huber"," A218",lec.,,2026-10-06,2027-01-26
+Wtorek,8,2,"Podstawy chemii z elementami chemii nieorganicznej","bezpieczeństwo jądrowe: I rok","dr Mateusz Kowalik",D1,wykład,"zajęcia w budynku Wydziału Chemii",2026-10-06,2027-01-26
+Wtorek,8,3,Matematyka,"fizyka medyczna: I rok gr. 2","dr Dorota Wejer",3.14,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,8,2,"Matematyka dyskretna","bioinformatyka: II rok","dr Krzysztof Szczygielski",D001,wykład,"zajęcia od 10 XI",2026-11-10,2027-01-26
+Wtorek,8,3,"Biologia molekularna i genetyka","bioinformatyka: II rok","prof. dr hab. Tadeusz Namiotko",B300,wykład,"8.00-10.15; zajęcia w budynku Wydziału Biologii; zajęcia do 3 XI",2026-10-06,2026-11-03
+Wtorek,8,3,"Prawo medyczne w ochronie radiologicznej","fizyka medyczna: II rok","mgr Kamila Piątkowska",1.17,,"8.30-11.00 zajęcia 3 i 17 oraz 24 XI",2026-10-06,2027-01-26
+Wtorek,8,2,"Fizyka ciała stałego","bezpieczeństwo jądrowe: II rok","dr Natalia Górecka",2.05,wykład,,2026-10-06,2027-01-26
+Wtorek,8,4,"Dydaktyka fizyki w szkole podstawowej","fizyka II st.: I rok","dr Karolina Baranowska+mgr Agnieszka Schlichtholz",D005,ćwiczenia,"wykłady + ćwiczenia + laboratorium; zajęcia od 20 X",2026-10-20,2027-01-26
+Wtorek,8,5,"Blok przedmiotów pedagogicznych","fizyka: III rok",,,,"Tylko dla osób realizujących Moduł Kształcenia Nauczycieli, zajęcia rozpoczna się w listopadzie  szczegółowy plan <a href=https://inf.ug.edu.pl/plan/fiz/FN.html>https://inf.ug.edu.pl/plan/fiz/FN.html</a>",2026-10-06,2027-01-26
+Wtorek,8,5,"Podstawy fizyki promieniowania jonizującego","fizyka medyczna: III rok","dr Jan Mierzejewski",A107,laboratorium,"8.30-13.00; zajęcia od 27 X do 15 XII",2026-10-27,2026-12-15
+Wtorek,8,3,"Podstawy matematyki","fizyka: I rok","dr hab. Adam Rutkowski, prof. UG",2.16,ćwiczenia,"zajęcia od 10 XI",2026-11-10,2027-01-26
+Wtorek,9,2,Spektroskopia,"fizyka II st.: II rok","dr hab. Sebastian Mahlik, prof. UG",47,wykład,"zajęcia w budynku przy ul. Kładki 24",2026-10-06,2027-01-26
+Wtorek,9,3,"Od biomolekuł poprzez biosensory do laboratorium czipowego","fizyka medyczna II st.: II rok","dr hab. Anna Synak, prof. UG",23,wykład,"zajęcia w budynku przy ul. Kładki 24",2026-10-06,2027-01-26
+Wtorek,9,4,"Laboratorium elektromagnetyzmu i podstaw miernictwa","fizyka: II rok gr. 1","dr Jan Mierzejewski",2.15,laboratorium,";; zajęcia do 20 X",2026-10-06,2026-10-20
+Wtorek,10,2,Mechanika,"fizyka medyczna: I rok gr. 1","dr Marta Miotke-Wasilczyk",2.14,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,10,1,Programming,"quantum information technology: 1st yr","dr inż. Jan Tuziemski",3.11,lab.,,2026-10-06,2027-01-26
+Wtorek,10,2,"Mathematical Optimization and Applications","quantum information technology: 2nd yr","dr Felix Huber"," A101",tut.,,2026-10-06,2027-01-26
+Wtorek,10,2,"Monitoring skażeń radioaktywnych","bezpieczeństwo jądrowe: III rok","mgr Klaudia Lanczewska-Bejenka",C109,ćwiczenia,"zajęcia w budynku Wydziału Chemii; zajęcia do 24 XI",2026-10-06,2026-11-24
+Wtorek,10,2,"Podstawy chemii z elementami chemii nieorganicznej","bezpieczeństwo jądrowe: I rok gr. 1","mgr Magdalena Stasiuk",C212,ćwiczenia,"zajęcia w budynku Wydziału Chemii",2026-10-06,2027-01-26
+Wtorek,10,3,"Wstęp do programowania","bioinformatyka: I rok gr. 1","prof. dr hab. Marcin Wieśniak",A005,laboratorium,,2026-10-06,2027-01-26
+Wtorek,10,2,"Podstawy chemii z elementami chemii nieorganicznej","bezpieczeństwo jądrowe: I rok gr. 2","mgr Natalia Żukowska",F206,ćwiczenia,"zajęcia w budynku Wydziału Chemii",2026-10-06,2027-01-26
+Wtorek,10,2,"Fizyka ciała stałego","bezpieczeństwo jądrowe: II rok","dr Natalia Górecka",2.05,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,11,2,"Programowanie równoległe","bioinformatyka: III rok","prof. dr hab. Cezary Czaplewski",C211,laboratorium,"zajęcia w budynku Wydziału Chemii",2026-10-06,2027-01-26
+Wtorek,11,4,"Probability and Information Theory","quantum information technology: 1st yr","mgr Dhruv Baheti",1.17,tut.,"classes from 27 X",2026-10-06,2027-01-26
+Wtorek,11,4,Spektroskopia,"fizyka II st.: II rok","mgr Mikołaj Kamiński",47,laboratorium,"zajęcia w budynku przy ul. Kładki 24",2026-10-06,2027-01-26
+Wtorek,11,2,"Biologia molekularna i genetyka","bioinformatyka: II rok gr. 1","dr Barbara Wojtasik",B329,ćwiczenia,"zajęcia w budynku Wydziału Biologii; zajęcia do 3 XI",2026-10-06,2026-11-03
+Wtorek,11,3,Programowanie,"fizyka: I rok","dr inż. Krzysztof Dorywalski+dr Sławomir Werbowy",A015,laboratorium,,2026-10-06,2027-01-26
+Wtorek,11,3,"Biologia molekularna i genetyka","bioinformatyka: II rok gr. 2","dr Dariusz Nowicki",A203,ćwiczenia,"zajęcia w budynku Wydziału Biologii; zajęcia od 15 XII",2026-12-15,2027-01-26
+Wtorek,11,2,"Fizyka jądra atomowego i cząstek elementarnych","fizyka medyczna II st.: I rok","dr inż. Angelina Łobejko",3.14,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,11,2,"Bioróżnorodność i podstawy taksonomii","bioinformatyka: I rok gr. c","dr Aleksandra Naczk",B202/C111,laboratorium,"11.00-13.15; zajęcia w budynku Wydziału Biologii; zajęcia do 8 XII",2026-10-06,2026-12-08
+Wtorek,12,3,"Od biomolekuł poprzez biosensory do laboratorium czipowego","fizyka medyczna II st.: II rok","dr hab. Anna Synak, prof. UG",67b,laboratorium,"zajęcia w budynku przy ul. Kładki 24",2026-10-06,2027-01-26
+Wtorek,12,2,"Monitoring skażeń radioaktywnych","bezpieczeństwo jądrowe: III rok","mgr Klaudia Lanczewska-Bejenka",G328,laboratorium,"zajęcia w budynku Wydziału Chemii; zajęcia do 24 XI",2026-10-06,2026-11-24
+Wtorek,12,1,"Opracowanie danych pomiarowych","fizyka medyczna: I rok+bezpieczeństwo jądrowe: I rok","dr hab. Marek Józefowicz, prof. UG",D005,wykład,,2026-10-06,2027-01-26
+Wtorek,12,3,"Elementy fizyki współczesnej","bezpieczeństwo jądrowe: II rok","dr Joanna Gondek, prof. UG",2.16,wykład,,2026-10-06,2027-01-26
+Wtorek,12,2,"Dydaktyka fizyki w szkole podstawowej","fizyka II st.: I rok","dr Karolina Baranowska+mgr Agnieszka Schlichtholz",1.18,wykład,"wykłady + ćwiczenia + laboratorium; zajęcia od 20 X",2026-10-20,2027-01-26
+Wtorek,13,2,"Optyka i fale","fizyka: II rok","dr Dzmitryi Ushakou",2.05,wykład,,2026-10-06,2027-01-26
+Wtorek,13,2,"Biologia molekularna i genetyka","bioinformatyka: II rok gr. 2","dr Barbara Wojtasik",B329,ćwiczenia,"zajęcia w budynku Wydziału Biologii; zajęcia do 3 XI",2026-10-06,2026-11-03
+Wtorek,13,3,"Wstęp do programowania","bioinformatyka: I rok gr. 2","prof. dr hab. Marcin Wieśniak",A005,laboratorium,,2026-10-06,2027-01-26
+Wtorek,13,2,"Geny i populacje w czasie i przestrzeni","bioinformatyka: III rok","dr hab. Andre Moura, prof. UG",A203/B202,laboratorium,"zajęcia w budynku Wydziału Biologii",2026-10-06,2027-01-26
+Wtorek,13,7,"Anatomia prawidłowa","fizyka medyczna: I rok","dr hab. n. med. Beata Ludkiewicz+dr Agata Tymińska",,,"szczegółowy terminarz <a href=https://inf.ug.edu.pl/plan/fiz/Anatomia.html>https://inf.ug.edu.pl/plan/fiz/Anatomia.html</a>",2026-10-06,2027-01-26
+Wtorek,13,3,"Fizyka ciała stałego w zastosowaniach medycznych","fizyka medyczna II st.: I rok","dr inż. Tadeusz Leśniewski",D005,wykład,,2026-10-06,2027-01-26
+Wtorek,13,2,Mechanika,"bezpieczeństwo jądrowe: I rok gr. 1","dr Marta Miotke-Wasilczyk",3.14,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,13,2,"Fizyka jądrowa","fizyka: III rok","dr inż. Angelina Łobejko",2.13,wykład,,2026-10-06,2027-01-26
+Wtorek,14,2,"Podstawy fizyki promieniowania jonizującego","fizyka medyczna: III rok","prof. dr hab. Stanisław Pogorzelski"," D001",wykład,,2026-10-06,2027-01-26
+Wtorek,14,3,"Wstęp do uczenia maszynowego dla fizyki medycznej","fizyka medyczna: II rok","dr inż. Krzysztof Dorywalski",A102,laboratorium,,2026-10-06,2027-01-26
+Wtorek,14,2,"Equations of Mathematical Physics","quantum information technology: 2nd yr","dr hab. Marcin Marciniak, prof. UG"," A218",lec.,,2026-10-06,2027-01-26
+Wtorek,14,3,"Biologia molekularna i genetyka","bioinformatyka: II rok gr. 1","dr Dariusz Nowicki",A203,ćwiczenia,"zajęcia w budynku Wydziału Biologii; zajęcia od 15 XII",2026-12-15,2027-01-26
+Wtorek,14,2,"Equations of Mathematical Physics","fizyka II st.: I rok","dr hab. Marcin Marciniak, prof. UG",A218,wykład,,2026-10-06,2027-01-26
+Wtorek,14,2,"Fizyka jądra atomowego i cząstek elementarnych","bezpieczeństwo jądrowe: III rok","prof. dr hab. Stanisław Pogorzelski",D001,wykład,,2026-10-06,2027-01-26
+Wtorek,15,2,Programming,"quantum information technology: 1st yr","dr Anubhav Chaturvedi",1.18,lec.,"classes from 8 XII until 26 I",2026-10-06,2027-01-26
+Wtorek,15,2,Mechanika,"bezpieczeństwo jądrowe: I rok gr. 2","dr Marta Miotke-Wasilczyk",2.16,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,15,2,"Optyka i fale","fizyka: II rok","dr Dzmitryi Ushakou",2.05,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,15,1,"Fizyka jądrowa","fizyka: III rok","dr inż. Angelina Łobejko",2.13,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,16,2,"Sztuka krytycznego myślenia","bioinformatyka: I rok","dr hab. Artur Szutta, prof. UG",D005,wykład,,2026-10-06,2027-01-26
+Wtorek,16,2,"Equations of Mathematical Physics","quantum information technology: 2nd yr","dr Yaser Tavakoli"," 2.13",tut.,,2026-10-06,2027-01-26
+Wtorek,16,3,"Metody numeryczne dla bioinformatyków","bioinformatyka: II rok gr. 2","dr hab. Wiesław Miklaszewski, prof. UG",A005,laboratorium,,2026-10-06,2027-01-26
+Wtorek,16,2,"Equations of Mathematical Physics","fizyka II st.: I rok","dr Yaser Tavakoli",2.13,ćwiczenia,,2026-10-06,2027-01-26
+Wtorek,17,3,"Metody obliczeniowe fizyki medycznej","fizyka medyczna: II rok","dr Marcin Łobejko",A102,laboratorium,,2026-10-06,2027-01-26
+Wtorek,18,2,"Fizyka kwantowa","fizyka II st.: I rok","dr Yaser Tavakoli",2.16,ćwiczenia,,2026-10-06,2027-01-26
+Środa,8,2,"^Geometria różniczkowa","fizyka: III rok","dr Denis Dobkowski-Ryłko"," 2.14",wykład,,2026-10-07,2027-01-27
+Środa,8,2,"Podstawy chemii z elementami chemii nieorganicznej","bezpieczeństwo jądrowe: I rok gr. d","dr hab., Aleksandra Dąbrowska, prof. UG",C203,laboratorium,"zajęcia w budynku Wydziału Chemii",2026-10-07,2027-01-27
+Środa,8,2,"Chemia analityczna","bezpieczeństwo jądrowe: II rok","dr Dorota Zarzeczańska",D101,wykład,"zajęcia w budynku Wydziału Chemii; zajęcia do 2 XII",2026-10-07,2026-12-02
+Środa,8,2,"Prawo w energetyce jądrowej","bezpieczeństwo jądrowe: III rok","dr hab., Alicja Boryło, prof. UG",F8,wykład,"zajęcia w budynku Wydziału Chemii",2026-10-07,2027-01-27
+Środa,8,2,"Functional Analysis and Partial Differential Equations","quantum information technology: 2nd yr","dr Luis Cort-Barrada",1.18,tut.,,2026-10-07,2027-01-27
+Środa,8,2,"Geometria różniczkowa dla fizyków","fizyka: II rok","dr Denis Dobkowski-Ryłko",D001,wykład,,2026-10-07,2027-01-27
+Środa,8,4,"Pracownia fizyczna I - Elektromagnetyzm","fizyka medyczna: II rok gr. 2","dr Michał Mońka",P33,laboratorium,,2026-10-07,2027-01-27
+Środa,8,3,"Modelowanie struktury biocząstek","bioinformatyka: III rok gr. 1","dr hab. Magdalena Ślusarz",C213,laboratorium,"zajęcia w budynku Wydziału Chemii",2026-10-07,2027-01-27
+Środa,8,3,"Podstawy matematyki","fizyka: I rok","dr Joanna Gondek, prof. UG",2.16,ćwiczenia,"zajęcia do 4 XI",2026-10-07,2026-11-04
+Środa,8,2,Fizjologia,"fizyka medyczna: I rok","dr hab. n. med. Magdalena Wszędybył-Winklewska","<a href='https://teams.microsoft.com/meet/393184060813552?p=WU09mWSqfWlwXAw9e7'>link do zajęć</a>",wykład,"8.00-9.30; zajęcia zdalne; zajęcia do 16 XII",2026-10-07,2026-12-16
+Środa,8,3,Mechanika,"fizyka: I rok","dr Joanna Gondek, prof. UG",2.16,ćwiczenia,"zajęcia od 18 XI",2026-11-18,2027-01-27
+Środa,8,2,"Podstawy fizyki teoretycznej dla fizyki medycznej II","fizyka medyczna: III rok","dr Marcin Łobejko",3.14,wykład,,2026-10-07,2027-01-27
+Środa,9,3,"Matematyka - repetytorium","bioinformatyka: I rok","dr Adrian Kołodziejski",D005,wykład,"zajęcia do 4 XI",2026-10-07,2026-11-04
+Środa,9,4,"Uczenie maszynowe","bioinformatyka: III rok gr. 2","mgr Kamil Klimkowski",C311,laboratorium,"9.30-12.30; zajęcia w budynku Wydziału Chemii",2026-10-07,2027-01-27
+Środa,10,2,"Informacja kwantowa","fizyka II st.: II rok","dr hab. Karol Horodecki, prof. UG",2.05,wykład,,2026-10-07,2027-01-27
+Środa,10,3,Programowanie,"fizyka medyczna: I rok gr. 1","dr Sławomir Werbowy",A102,laboratorium,,2026-10-07,2027-01-27
+Środa,10,3,"Podstawy chemii z elementami chemii nieorganicznej","bezpieczeństwo jądrowe: I rok gr. b","mgr Paulina Truszkowska",C203,laboratorium,"10.30-13.00; zajęcia w budynku Wydziału Chemii",2026-10-07,2027-01-27
+Środa,10,2,"Chemia analityczna","bezpieczeństwo jądrowe: II rok","dr Dorota Zarzeczańska",C310,ćwiczenia,"zajęcia w budynku Wydziału Chemii",2026-10-07,2027-01-27
+Środa,10,3,"Metody matematyczne fizyki I","fizyka: II rok","dr Krzysztof Szczygielski",2.14,ćwiczenia,,2026-10-07,2027-01-27
+Środa,10,3,Programowanie,"fizyka medyczna: I rok gr. 2","dr Dorota Wejer",A005,laboratorium,10.00-12.30,2026-10-07,2027-01-27
+Środa,10,2,"Monitoring skażeń radioaktywnych","bezpieczeństwo jądrowe: III rok","dr hab., Alicja Boryło, prof. UG",F8,wykład,"zajęcia w budynku Wydziału Chemii",2026-10-07,2027-01-27
+Środa,10,2,"Podstawy fizyki teoretycznej dla fizyki medycznej II","fizyka medyczna: III rok","dr Marcin Łobejko",3.14,ćwiczenia,,2026-10-07,2027-01-27
+Środa,10,2,"Basics of Quantum Information","quantum information technology: 2nd yr","dr hab. Karol Horodecki, prof. UG"," 2.05",lec.,,2026-10-07,2027-01-27
+Środa,11,3,"Pracownia specjalistyczna","fizyka medyczna II st.: I rok gr. 1","dr Natalia Górecka+mgr Mikołaj Kamiński+dr Paweł Rochowski+dr hab. Illia Serdiuk, prof. UG+dr Dzmitryi Ushakou",,laboratorium,"11.00-13.30;zajęcia w budynku przy ul. Kładki 24<br/>- dr Paweł Rochowski – 1–18 października (pok. 68)<br/> - dr Illia Serdiuk – 19 października–8 listopada (pok. 63)<br/> - dr Natalia Górecka i mgr Mikołaj Kamiński – 9 listopada–13 grudnia (pok. 47)<br/> - dr Dzymitryi Ushakou – 14–23 grudnia oraz 7–13 stycznia (kontakt z prowadzącym w sprawie miejsca zajęć).",2026-10-07,2027-01-27
+Środa,11,3,"Podstawy matematyki","fizyka: I rok","dr hab. Adam Rutkowski, prof. UG",2.13,ćwiczenia,"zajęcia od 18 XI",2026-11-18,2027-01-27
+Środa,11,2,"Introduction to Quantum Mechanics","quantum information technology: 1st yr","dr Gerard Munne",1.17,lec.,,2026-10-07,2027-01-27
+Środa,12,2,"Informacja kwantowa","fizyka II st.: II rok","dr hab. Karol Horodecki, prof. UG"," A001",ćwiczenia,,2026-10-07,2027-01-27
+Środa,12,4,"Pracownia fizyczna I - Elektromagnetyzm","fizyka medyczna: II rok gr. 1","dr Michał Mońka",P33,laboratorium,,2026-10-07,2027-01-27
+Środa,12,3,"Metody matematyczne bioinformatyki - calculus","bioinformatyka: I rok gr. 1","mgr Mateusz Kowalczyk",A302,ćwiczenia,,2026-10-07,2027-01-27
+Środa,12,2,"Energetyka jądrowa i procesy reaktorowe","bezpieczeństwo jądrowe: III rok","dr hab., Alicja Boryło, prof. UG",F6,wykład,"zajęcia w budynku Wydziału Chemii",2026-10-07,2027-01-27
+Środa,12,3,Matematyka,"bezpieczeństwo jądrowe: I rok gr. 2","dr Dorota Wejer",A303,ćwiczenia,12.30-15.00,2026-10-07,2027-01-27
+Środa,12,3,"Mechanika kwantowa","fizyka: III rok","prof. dr hab. Wiesław Laskowski",D005,wykład,,2026-10-07,2027-01-27
+Środa,12,2,"Basics of Quantum Information","quantum information technology: 2nd yr","dr hab. Karol Horodecki, prof. UG"," A001",tut.,,2026-10-07,2027-01-27
+Środa,12,4,"(T) Teoria pola","fizyka II st.: I rok","prof. dr hab. Michał Horodecki",2.16,wykład,,2026-10-07,2027-01-27
+Środa,13,2,"Podstawy chemii z elementami chemii nieorganicznej","bezpieczeństwo jądrowe: I rok gr. a","mgr Magdalena Stasiuk",C203,laboratorium,"zajęcia w budynku Wydziału Chemii",2026-10-07,2027-01-27
+Środa,13,2,"Metody numeryczne dla bioinformatyków","bioinformatyka: II rok","dr hab. Wiesław Miklaszewski, prof. UG",2.14,wykład,"zajęcia do 2 XII",2026-10-07,2026-12-02
+Środa,13,2,"Seminarium - publikacje","bioinformatyka: III rok","dr hab. Stanisław Ołdziej, prof. UG",032,ćwiczenia,"13.30-15.00 zajęcia w budynku Międzyuczelnianego Wydziału Biotechnologii UG i GUMed",2026-10-07,2027-01-27
+Środa,13,3,"Matematyka - repetytorium","bioinformatyka: I rok gr. 2","dr Adrian Kołodziejski",D003,ćwiczenia,"zajęcia do 4 XI",2026-10-07,2026-11-04
+Środa,13,4,"Introduction to Quantum Mechanics","quantum information technology: 1st yr","mgr Idriss Ngueya",1.17,tut.,,2026-10-07,2027-01-27
+Środa,14,1,"Informacja kwantowa","fizyka II st.: II rok"," Dorota Pietryka",A102,laboratorium,,2026-10-07,2027-01-27
+Środa,14,5,"Wstęp do fizyki medycznej","fizyka medyczna: I rok",,,wykład,"szczegółowy rozkład wykładów <a href=https://inf.ug.edu.pl/plan/fiz/FM1.html>https://inf.ug.edu.pl/plan/fiz/FM1.html</a>",2026-10-07,2027-01-27
+Środa,14,2,"Pracownia specjalistyczna","fizyka medyczna II st.: I rok gr. 2","dr Natalia Górecka+mgr Mikołaj Kamiński+dr Paweł Rochowski+dr hab. Illia Serdiuk, prof. UG+dr Dzmitryi Ushakou",,laboratorium,"13.30-16.00;zajęcia w budynku przy ul. Kładki 24<br/>- dr Paweł Rochowski – 1–18 października (pok. 68)<br/> - dr Illia Serdiuk – 19 października–8 listopada (pok. 63)<br/> - dr Natalia Górecka i mgr Mikołaj Kamiński – 9 listopada–13 grudnia (pok. 47)<br/> - dr Dzymitryi Ushakou – 14–23 grudnia oraz 7–13 stycznia (kontakt z prowadzącym w sprawie miejsca zajęć).",2026-10-07,2027-01-27
+Środa,14,2,"Bezpieczeństwo jądrowe","bezpieczeństwo jądrowe: III rok","dr Sławomir Werbowy",2.13,wykład,,2026-10-07,2027-01-27
+Środa,15,3,"Podstawy chemii z elementami chemii nieorganicznej","bezpieczeństwo jądrowe: I rok gr. c","mgr Natalia Żukowska",C203,laboratorium,"15.30-18.00; zajęcia w budynku Wydziału Chemii",2026-10-07,2027-01-27
+Środa,15,3,"Wstęp do fizyki medycznej","fizyka medyczna: I rok","dr hab. n. med. Paweł Czajkowski",D005,wykład,"zajęcia od 14 X do 21 X",2026-10-14,2026-10-21
+Środa,15,4,"Zaawansowane metody planowania leczenia w radioterapii","fizyka medyczna II st.: II rok","dr hab. n. med. Paweł Czajkowski",2.05,wykład,"zajęcia od 28 X",2026-10-28,2027-01-27
+Środa,15,3,"Wstęp do fizyki medycznej","fizyka medyczna: I rok","mgr Anna Melkau",D005,wykład,"4 XI nie będzie zajęć; zajęcia od 28 X do 2 XII",2026-10-28,2026-12-02
+Środa,15,3,"Metody numeryczne dla bioinformatyków","bioinformatyka: II rok gr. 1","mgr Aleksandra Kwiatkowska",A005,laboratorium,,2026-10-07,2027-01-27
+Środa,15,2,"Filogenetyka molekularna","bioinformatyka: III rok","prof. dr hab. Marek Ziętara",C108,wykład,"zajęcia w budynku Wydziału Biologii; zajęcia do 9 XII",2026-10-07,2026-12-09
+Środa,15,2,"Bioróżnorodność i podstawy taksonomii","bioinformatyka: I rok gr. a","dr Aleksandra Naczk",B202,laboratorium,"15.15-17.30; zajęcia w budynku Wydziału Biologii; zajęcia do 23 XII",2026-10-07,2026-12-23
+Środa,15,3,"Seminarium dyplomowe I","fizyka II st.: II rok","prof. dr hab. Stanisław Kryszewski",3.14,seminarium,,2026-10-07,2027-01-27
+Środa,16,4,"Medycyna Nuklearna","fizyka medyczna II st.: I rok",,,wykład,"szczegółowy rozkład wykładów <a href=https://inf.ug.edu.pl/plan/fiz/FM2.html>https://inf.ug.edu.pl/plan/fiz/FM2.html</a>; zajęcia zdalne",2026-10-07,2027-01-27
+Środa,17,2,"Zarządzanie projektem informatycznym","bioinformatyka: III rok","mgr Marek Szkudlarek",2.14,wykład,,2026-10-07,2027-01-27
+Czwartek,8,2,"Nowoczesne techniki w radioterapii","fizyka medyczna II st.: I rok","dr inż Joanna Kamińska",,wykład,"8.00-9.30 zajęcia w Klinice Onkologii i Radioterapii UCK – ul. Smoluchowskiego 17 –;sala seminaryjna (I piętro)",2026-10-01,2027-01-28
+Czwartek,8,2,"Chemia dla bioinformatyków","bioinformatyka: I rok gr. 2","dr hab., Aleksandra Dąbrowska, prof. UG",C315,ćwiczenia,"zajęcia w budynku Wydziału Chemii; zajęcia od 8 X do 26 XI",2026-10-08,2026-11-26
+Czwartek,8,2,"MA seminar","quantum information technology: 2nd yr","dr Jorge Escandón-Monardes",A302,tut.,,2026-10-01,2027-01-28
+Czwartek,8,2,"Chemia dla bioinformatyków","bioinformatyka: I rok gr. 1","mgr Natalia Żukowska",C210,ćwiczenia,"zajęcia w budynku Wydziału Chemii; zajęcia od 8 X do 19 XI",2026-10-08,2026-11-19
+Czwartek,8,4,"Analiza instrumentalna w chemii","bezpieczeństwo jądrowe: III rok","mgr Kornelia Kozłowska-Wysocka",F210,laboratorium,"zajęcia w budynku Wydziału Chemii; zajęcia od 8 X do 19 XI",2026-10-08,2026-11-19
+Czwartek,8,2,Mechanika,"fizyka medyczna: I rok+bezpieczeństwo jądrowe: I rok","dr hab. Marek Józefowicz, prof. UG",D005,wykład,,2026-10-01,2027-01-28
+Czwartek,8,2,"Modelowanie struktury biocząstek","bioinformatyka: III rok","dr hab. Magdalena Ślusarz",F3,wykład,"zajęcia w budynku Wydziału Chemii; zajęcia od 8 X do 19 XI",2026-10-08,2026-11-19
+Czwartek,8,3,"Pracownia fizyczna - elektromagnetyzm i termodynamika","bezpieczeństwo jądrowe: II rok","prof. dr hab. Stanisław Pogorzelski",P33,laboratorium,,2026-10-01,2027-01-28
+Czwartek,8,2,"Biotermodynamika z elementami fizyki statystycznej","fizyka medyczna: III rok","dr Marcin Łobejko",2.05,wykład,,2026-10-01,2027-01-28
+Czwartek,9,3,"Metody matematyczne fizyki I","fizyka: II rok","dr Krzysztof Szczygielski",2.13,wykład,,2026-10-01,2027-01-28
+Czwartek,9,3,"(T) Teoria pola","fizyka II st.: I rok","mgr Paulina Janowicz+dr hab. Thomas Zlosnik",3.14,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,10,2,"Probability and Information Theory","quantum information technology: 1st yr","dr Borhan Ahmadi",2.04,lec.,,2026-10-01,2027-01-28
+Czwartek,10,2,Etyka,"fizyka medyczna: I rok","dr Paweł Pijas",D005,wykład,"10.30-12.00; zajęcia do 19 XI",2026-10-01,2026-11-19
+Czwartek,10,3,"Podstawy biologii","bezpieczeństwo jądrowe: I rok gr. c","mgr Anna Barczak+mgr Anna Kujałowicz"," A202",laboratorium,"zajęcia w budynku Wydziału Biologii; zajęcia od 3 XII do 21 I",2026-12-03,2027-01-21
+Czwartek,10,2,"Language Course English 3","quantum information technology: 2nd yr","mgr Piotr Bohdziewicz"," A302",tut.,,2026-10-01,2027-01-28
+Czwartek,10,3,"Podstawy biologii","bezpieczeństwo jądrowe: I rok gr. a","dr Magdalena Oset",C401,laboratorium,"zajęcia w budynku Wydziału Biologii; zajęcia od 22 X do 5 XI",2026-10-22,2026-11-05
+Czwartek,10,2,"Matematyka dyskretna","bioinformatyka: II rok","mgr Aleksandra Kwiatkowska",2.14,ćwiczenia,"zajęcia od 5 XI",2026-11-05,2027-01-28
+Czwartek,10,2,"Biotermodynamika z elementami fizyki statystycznej","fizyka medyczna: III rok","dr Marcin Łobejko",2.05,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,10,2,"Mechanika kwantowa dla bioinformatyków","bioinformatyka: III rok","prof. dr hab. Marcin Wieśniak",A005,laboratorium,,2026-10-01,2027-01-28
+Czwartek,11,3,"Podstawy ekonomiki i zarządzania w ochronie zdrowia","fizyka medyczna: II rok","dr n. o zdr. Ewa Bandurska",,wykład,"zajęcia 8,15 i 29 X 11.00-14.00 oraz 5 XI 11.00-13.15; zajęcia zdalne",2026-10-01,2027-01-28
+Czwartek,12,2,"Language Course 1 English","quantum information technology: 1st yr","mgr Andrzej Szabała"," A319",tut.,,2026-10-01,2027-01-28
+Czwartek,12,2,"Język angielski I","bioinformatyka: I rok gr. 1","mgr Joanna Chmielewska",2.13,lektorat,,2026-10-01,2027-01-28
+Czwartek,12,2,"Język angielski I","bioinformatyka: I rok gr. 2","mgr Piotr Bohdziewicz",2.16,lektorat,,2026-10-01,2027-01-28
+Czwartek,12,1,"Analiza instrumentalna w chemii","bezpieczeństwo jądrowe: III rok","dr hab. Grzegorz Romanowski, prof. UG",C309,wykład,"11.30-13.00; zajęcia w budynku Wydziału Chemii; zajęcia do 19 XI",2026-10-01,2026-11-19
+Czwartek,12,2,"Fizyka kwantowa","fizyka II st.: I rok","prof. dr hab. Marcin Wieśniak",D005,wykład,,2026-10-01,2027-01-28
+Czwartek,12,2,"Elementy chemii obliczeniowej w praktyce","bioinformatyka: III rok","dr hab. Sylwia Freza",C213,laboratorium,"zajęcia w budynku Wydziału Chemii; zajęcia od 8 X",2026-10-08,2027-01-28
+Czwartek,13,3,"Podstawy biologii","bezpieczeństwo jądrowe: I rok gr. b","mgr Anna Barczak+mgr Anna Kujałowicz"," A202",laboratorium,"zajęcia w budynku Wydziału Biologii; zajęcia od 3 XII do 21 I",2026-12-03,2027-01-21
+Czwartek,13,3,"Podstawy biologii","bezpieczeństwo jądrowe: I rok gr. b","dr Magdalena Oset",C401,laboratorium,"zajęcia w budynku Wydziału Biologii; zajęcia od 15 X do 29 X",2026-10-15,2026-10-29
+Czwartek,13,3,Programowanie,"bezpieczeństwo jądrowe: I rok gr. 2","dr Sławomir Werbowy",A005,laboratorium,13.30-16.00,2026-10-01,2027-01-28
+Czwartek,13,3,"Biologia molekularna i genetyka","bioinformatyka: II rok","dr hab. Barbara Kędzierska, prof. UG"," C109",wykład,"zajęcia w budynku Wydziału Biologii; zajęcia od 5 XI",2026-11-05,2027-01-28
+Czwartek,13,2,"Wykład z nauk społecznych","fizyka: II rok","dr Alicja Zbierzchowska",2.05,wykład,,2026-10-01,2027-01-28
+Czwartek,14,2,"Bioróżnorodność i podstawy taksonomii","bioinformatyka: I rok","prof. dr hab. Marek Ziętara",D005,wykład,,2026-10-01,2027-01-28
+Czwartek,14,2,Matematyka,"fizyka medyczna: I rok gr. 2","dr Dorota Wejer",2.13,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,14,3,"Filogenetyka molekularna","bioinformatyka: III rok gr. 1","dr inż. Bartłomiej Tomiczek",031,laboratorium,"14.30-16.45 zajęcia w budynku Międzyuczelnianego Wydziału Biotechnologii UG i GUMed; zajęcia od 3 XII",2026-12-03,2027-01-28
+Czwartek,14,3,"Modelowanie struktury biocząstek","bioinformatyka: III rok gr. 2","dr hab. Magdalena Ślusarz",C213,laboratorium,"zajęcia w budynku Wydziału Chemii; zajęcia od 8 X",2026-10-08,2027-01-28
+Czwartek,14,3,"Filogenetyka molekularna","bioinformatyka: III rok gr. 1",Pietkiewicz,C111,laboratorium,"zajęcia w budynku Wydziału Biologii; zajęcia do 26 XI",2026-10-01,2026-11-26
+Czwartek,14,2,"^(T) Implementacje przetwarzania informacji kwantowej","fizyka II st.: I rok+fizyka II st.: II rok","prof. dr hab. Marcin Wieśniak",2.14,wykład,,2026-10-01,2027-01-28
+Czwartek,15,2,"Język angielski I","fizyka: II rok+bezpieczeństwo jądrowe: II rok","mgr Irena Moszczyńska-Janicka",2.04,lektorat,15.30-17.00,2026-10-01,2027-01-28
+Czwartek,16,3,"Fizyka ciała stałego w zastosowaniach medycznych","fizyka medyczna II st.: I rok","mgr Mikołaj Kamiński",2.13,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,16,2,"Radiobiologia - dozymetria - ochrona radiologiczna - kurs ochrony radiolog. pacjenta","fizyka medyczna: III rok","dr n med. Tomasz Bandurski",,wykład,"zajęcia zdalne; zajęcia od 8 X",2026-10-08,2027-01-28
+Czwartek,16,3,"Analiza statystyczna i rachunek prawdopodobieństwa dla bioinformatyków","bioinformatyka: II rok","dr hab. Anita Dąbrowska",A005,laboratorium,,2026-10-01,2027-01-28
+Czwartek,17,2,"Mechanika klasyczna","fizyka: II rok","dr hab. Thomas Zlosnik",2.16,ćwiczenia,,2026-10-01,2027-01-28
+Czwartek,17,3,"Filogenetyka molekularna","bioinformatyka: III rok gr. 2",Pietkiewicz,C111,laboratorium,"zajęcia w budynku Wydziału Biologii; zajęcia do 26 XI",2026-10-01,2026-11-26
+Czwartek,18,2,"Radiobiologia - dozymetria - ochrona radiologiczna - kurs ochrony radiolog. pacjenta","fizyka medyczna: III rok","dr n med. Tomasz Bandurski",,ćwiczenia,"zajęcia zdalne; zajęcia od 8 X",2026-10-08,2027-01-28
+Piątek,8,2,"^Geometria różniczkowa","fizyka: III rok","dr hab. Thomas Zlosnik",1.18,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,8,3,Matematyka,"bezpieczeństwo jądrowe: I rok gr. 1","dr Danuta Jaruszewska-Walczak",2.16,ćwiczenia,"8.15-11.00 przerwa między 9.15, a 9.45",2026-10-02,2027-01-29
+Piątek,8,2,"Geometria różniczkowa dla fizyków","fizyka: II rok","dr hab. Thomas Zlosnik"," 1.18",ćwiczenia,,2026-10-02,2027-01-29
+Piątek,8,3,Matematyka,"fizyka medyczna: I rok gr. 1","dr hab. Tomasz Człapiński, prof. UG",2.13,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,8,2,"Podstawy medycyny klinicznej i jej diagnostyki obrazowej","fizyka medyczna: II rok","prof. dr hab. Przemysław Rutkowski",,wykład,"zajęcia zdalne",2026-10-02,2027-01-29
+Piątek,8,2,"Analiza statystyczna i rachunek prawdopodobieństwa dla bioinformatyków","bioinformatyka: II rok","dr hab. Anita Dąbrowska",D001,wykład,,2026-10-02,2027-01-29
+Piątek,8,3,"Opracowanie danych pomiarowych","fizyka: I rok gr. 1","dr Justyna Barzowska",A015,laboratorium,,2026-10-02,2027-01-29
+Piątek,8,3,"Filogenetyka molekularna","bioinformatyka: III rok","prof. dr hab. Jarosław Marszałek",,wykład,"zajęcia od 18 XII",2026-12-18,2027-01-29
+Piątek,8,5,"Fizyka jądra atomowego i cząstek elementarnych","bezpieczeństwo jądrowe: III rok","dr Jan Mierzejewski",A107,laboratorium,"8.30-13.00; zajęcia od 23 X do 11 XII",2026-10-23,2026-12-11
+Piątek,8,2,Fizyka,Biotech,"dr hab. Marek Józefowicz, prof. UG",D005,wykład,,2026-10-02,2027-01-29
+Piątek,9,3,"Physical Implementations of Quantum Information","quantum information technology: 2nd yr","prof. dr hab. Michał Horodecki"," 1.17",lec.,,2026-10-02,2027-01-29
+Piątek,9,3,"Podstawy biologii","bezpieczeństwo jądrowe: I rok gr. c","dr Magdalena Oset",C401,laboratorium,"zajęcia w budynku Wydziału Biologii; zajęcia od 16 X do 30 X",2026-10-16,2026-10-30
+Piątek,9,4,"Zaawansowane laboratorium fizyczne","fizyka medyczna II st.: I rok","mgr Mikołaj Kamiński+dr Patryk Kamiński",F219,laboratorium,"zajęcia w budynku Wydziału Chemii",2026-10-02,2027-01-29
+Piątek,9,3,"Prawo atomowe i uregulowania pokrewne oraz systemy zarządzania jakością","fizyka medyczna II st.: II rok","mgr Marta Rowińska",3.14,wykład,"9.45-12.00; 2 godz. wykładu + 1 godz. ćwiczeń",2026-10-02,2027-01-29
+Piątek,9,3,"Informacja kwantowa","fizyka II st.: II rok","prof. dr hab. Michał Horodecki",1.17,wykład,,2026-10-02,2027-01-29
+Piątek,10,2,"Ochrona radiologiczna 1","bezpieczeństwo jądrowe: II rok","dr Grzegorz Olszewski",F6,wykład,"zajęcia w budynku Wydziału Chemii; zajęcia od 9 X",2026-10-09,2027-01-29
+Piątek,10,1,"Podstawy medycyny klinicznej i jej diagnostyki obrazowej","fizyka medyczna: II rok","prof. dr hab. Przemysław Rutkowski",,ćwiczenia,"zajęcia zdalne",2026-10-02,2027-01-29
+Piątek,10,2,"Wstęp do programowania","bioinformatyka: I rok","dr Jakub Neumann, prof. UG"," 1.14",wykład,"9 X nie będzie wykładu; zajęcia do 27 XI",2026-10-02,2026-11-27
+Piątek,10,4,"Laboratorium elektromagnetyzmu i podstaw miernictwa","fizyka: II rok","dr Jan Mierzejewski+mgr Waldemar Kujawski",2.15/P33,laboratorium,"W tygodniach 1–3, zajęcia w 2.15, prowadzący dr Jan Mierzejewski (tylko 2 grupa), w tygodniach 4–12 zajęcia w P33,  prowadzący mgr Waldemar Kujawski.; zajęcia do 18 XII",2026-10-02,2026-12-18
+Piątek,10,2,"^Podstawy chemii ogólnej","fizyka: III rok","dr Karol Szczodrowski",2.05,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,11,5,Biopython,"bioinformatyka: III rok","mgr Marcel Thiel",031,laboratorium,"11.00-15.30; zajęcia w budynku Międzyuczelnianego Wydziału Biotechnologii UG i GUMed; zajęcia od 16 X do 20 XI",2026-10-16,2026-11-20
+Piątek,11,2,Mechanika,"fizyka medyczna: I rok gr. 2","dr hab. Marek Józefowicz, prof. UG",2.13,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,11,1,"Podstawy metodologii badań naukowych","fizyka medyczna: II rok","prof. dr hab. Przemysław Rutkowski",,wykład,"10 godzin; zajęcia zdalne",2026-10-02,2027-01-29
+Piątek,11,3,Programowanie,"bezpieczeństwo jądrowe: I rok gr. 1","dr Sławomir Werbowy",A005,laboratorium,,2026-10-02,2027-01-29
+Piątek,11,3,"Filogenetyka molekularna","bioinformatyka: III rok gr. 2","dr inż. Bartłomiej Tomiczek",031,laboratorium,"11.15-13.30 zajęcia w budynku Międzyuczelnianego Wydziału Biotechnologii UG i GUMed; zajęcia od 27 XI",2026-11-27,2027-01-29
+Piątek,11,3,"Podstawy matematyki","fizyka: I rok","dr Joanna Gondek, prof. UG",2.16,ćwiczenia,"zajęcia do 30 X",2026-10-02,2026-10-30
+Piątek,11,3,Mechanika,"fizyka: I rok","dr Joanna Gondek, prof. UG",2.16,wykład,"zajęcia od 6 XI",2026-11-06,2027-01-29
+Piątek,12,4,"Mathematical Methods of Quantum Information","quantum information technology: 1st yr","mgr Darya Akalovich",1.17,tut.,,2026-10-02,2027-01-29
+Piątek,12,1,"Podstawy mikroprzedsiębiorczości","fizyka medyczna II st.: II rok","dr Ewa Ignaciuk",3.14,wykład,,2026-10-02,2027-01-29
+Piątek,12,1,"Philosophy of Science","quantum information technology: 2nd yr","dr Daniel Jockwich",1.18,lec.,,2026-10-02,2027-01-29
+Piątek,12,3,"Matematyka - repetytorium","bioinformatyka: I rok gr. 1","mgr Dominik Falkiewicz",A218,ćwiczenia,"zajęcia do 30 X",2026-10-02,2026-10-30
+Piątek,12,2,"Ochrona radiologiczna 1","bezpieczeństwo jądrowe: II rok","dr Grzegorz Olszewski",F6,ćwiczenia,"zajęcia w budynku Wydziału Chemii; zajęcia od 9 X",2026-10-09,2027-01-29
+Piątek,12,3,"Podstawy biologii","bezpieczeństwo jądrowe: I rok gr. d","dr Magdalena Oset",C401,laboratorium,"zajęcia w budynku Wydziału Biologii; zajęcia do 30 X",2026-10-02,2026-10-30
+Piątek,12,2,"^Podstawy chemii ogólnej","fizyka: III rok","dr Karol Szczodrowski",2.05,wykład,,2026-10-02,2027-01-29
+Piątek,13,1,"Podstawy mikroprzedsiębiorczości","fizyka medyczna II st.: II rok","dr Ewa Ignaciuk",3.14,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,13,2,"Functional Analysis and Partial Differential Equations","quantum information technology: 2nd yr","dr Moein Naseri",1.18,lec.,,2026-10-02,2027-01-29
+Piątek,13,4,"Pracownia fizyczna 2 do fizyki kwantowej i biofizyki","fizyka medyczna: III rok","dr Justyna Strankowska+dr Justyna Barzowska",F219,laboratorium,"zajęcia w budynku Wydziału Chemii",2026-10-02,2027-01-29
+Piątek,14,5,"Psychologia z elementami psychologii klinicznej","fizyka medyczna: I rok","dr Anna Korsak",,wykład,"14.30-18.15; zajęcia zdalne; zajęcia od 4 XII do 18 XII",2026-12-04,2026-12-18
+Piątek,14,2,Termodynamika,"fizyka medyczna: II rok","dr Paweł Rochowski"," 2.16",ćwiczenia,,2026-10-02,2027-01-29
+Piątek,14,2,"Seminarium dyplomowe 1","fizyka medyczna II st.: II rok","prof. dr hab. Stanisław Pogorzelski",2.14,seminarium,,2026-10-02,2027-01-29
+Piątek,14,3,"Mechanika klasyczna","fizyka: II rok","prof. dr hab. Stanisław Kryszewski",2.04,wykład,,2026-10-02,2027-01-29
+Piątek,14,3,"Metody matematyczne bioinformatyki - calculus","bioinformatyka: I rok gr. 2","dr hab. Piotr Gnaciński, prof. UG",2.13,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,14,2,"Termodynamika z elementami fizyki statystycznej","bezpieczeństwo jądrowe: II rok","dr Paweł Rochowski",2.16,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,14,3,"Mechanika kwantowa","fizyka: III rok","dr Yaser Tavakoli",3.14,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,14,1,"ABC mikroprzedsiębiorczości","fizyka: I rok","dr Ewa Ignaciuk"," D003",wykład,,2026-10-02,2027-01-29
+Piątek,14,2,"Bezpieczeństwo jądrowe","bezpieczeństwo jądrowe: III rok","dr Sławomir Werbowy",2.05,ćwiczenia,,2026-10-02,2027-01-29
+Piątek,15,2,"Podstawy biologii","bezpieczeństwo jądrowe: I rok","dr hab. Barbara Kędzierska, prof. UG+dr hab. Piotr Rutkowski, prof. UG",C105,wykład,"zajęcia w budynku Wydziału Biologii; zajęcia od 9 X",2026-10-09,2027-01-29
+Piątek,15,2,"Bioróżnorodność i podstawy taksonomii","bioinformatyka: I rok gr. b","dr Natalia Olędrzyńska",B202,laboratorium,"15.00-17.15; zajęcia w budynku Wydziału Biologii; zajęcia do 4 XII",2026-10-02,2026-12-04
+Piątek,16,2,Termodynamika,"fizyka medyczna: II rok","prof. dr hab. Stanisław Pogorzelski"," 2.14",wykład,,2026-10-02,2027-01-29
+Piątek,16,2,"Termodynamika z elementami fizyki statystycznej","bezpieczeństwo jądrowe: II rok","prof. dr hab. Stanisław Pogorzelski",2.14,wykład,,2026-10-02,2027-01-29
+Piątek,18,2,"Filozofia nauki","fizyka II st.: I rok+fizyka medyczna II st.: II rok","dr Tomasz Kąkol"," 1.14",wykład,"zajęcia do 20 XI",2026-10-02,2026-11-20

@@ -16,6 +16,7 @@ TEST_DATABASE_URL = os.environ.get(
     "PLANR_TEST_DATABASE_URL", "postgresql+psycopg://planr:planr@localhost:5432/planr_test"
 )
 FIXTURE = Path(__file__).parent / "fixtures" / "main_plan.csv"
+FIZ_FIXTURE = Path(__file__).parent / "fixtures" / "fiz_plan.csv"
 
 
 @pytest.fixture(scope="session")
@@ -39,6 +40,11 @@ def session(engine) -> Iterator[Session]:
 @pytest.fixture
 def csv_bytes() -> bytes:
     return FIXTURE.read_bytes()
+
+
+@pytest.fixture
+def fiz_bytes() -> bytes:
+    return FIZ_FIXTURE.read_bytes()
 
 
 @pytest.fixture

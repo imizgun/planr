@@ -17,7 +17,7 @@ log = logging.getLogger(__name__)
 
 class Source(Protocol):
     def get_text(self, url: str) -> str: ...
-    def fetch_main_plan(self) -> bytes: ...
+    def fetch_plans(self) -> list[bytes]: ...
 
 
 @dataclass
@@ -47,7 +47,8 @@ def refresh(session: Session, source: Source, *, force: bool = False) -> Refresh
     1. Hub pages are fetched; if all footer timestamps match the stored ones nothing else is requested.
     2. The programme crawl runs first (it yields the site programme ids used by the ingestion) and
        aborts the whole update on any failure, so ids never change because of a partial crawl.
-    3. The main plan is ingested and the elective assignment is stored.
+    3. The plan dumps of all source sites are ingested as one snapshot and the elective assignment is stored.
+       If any hub reports a change, every dump is fetched again (a snapshot is always built from all sources).
     Timestamps are saved only after everything succeeded.
     """
     now = dt.datetime.now(dt.timezone.utc)
@@ -56,7 +57,7 @@ def refresh(session: Session, source: Source, *, force: bool = False) -> Refresh
         return RefreshReport(status="unchanged")
 
     crawl = crawl_electives(source, hubs)
-    report = ingest(session, source.fetch_main_plan(), fetched_at=now, force=force, program_ids=crawl.program_ids_by_name)
+    report = ingest(session, source.fetch_plans(), fetched_at=now, force=force, program_ids=crawl.program_ids_by_name)
     links = link_electives(session, crawl)
     _save_stamps(session, hubs, now)
     return RefreshReport(status="refreshed", ingest=report, electives=links)

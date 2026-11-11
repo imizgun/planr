@@ -51,6 +51,7 @@ class FakeSite:
 
     def __init__(self, main_csv: bytes, *, fiz_stamp: str | None = None):
         self.main_csv = main_csv
+        self.fiz_csv = (SITE.parent / "fiz_plan.csv").read_bytes()
         self.requests: list[str] = []
         self.fiz_html = _read("fiz.html")
         if fiz_stamp:
@@ -79,9 +80,9 @@ class FakeSite:
             return self.elective_csv
         raise AssertionError(f"unexpected request {url}")
 
-    def fetch_main_plan(self) -> bytes:
-        self.requests.append("MAIN")
-        return self.main_csv
+    def fetch_plans(self) -> list[bytes]:
+        self.requests.append("PLANS")
+        return [self.main_csv, self.fiz_csv]
 
 
 def test_crawl_collects_programs_faids_and_courses(csv_bytes):
@@ -102,7 +103,7 @@ def test_crawl_failure_aborts_before_any_ingest(session, csv_bytes):
     site.get_text = lambda url: (_ for _ in ()).throw(RuntimeError("boom")) if "grupa=2P" in url else site.get_text_orig(url)
     with pytest.raises(RuntimeError):
         refresh(session, site)
-    assert "MAIN" not in site.requests
+    assert "PLANS" not in site.requests
     assert session.scalar(select(func.count()).select_from(Program)) == 0
     assert session.scalar(select(func.count()).select_from(SourceStamp)) == 0
 
@@ -139,7 +140,7 @@ def test_changed_footer_of_one_hub_triggers_update(session, csv_bytes):
     site = FakeSite(csv_bytes, fiz_stamp="24 października 2026 o 08.00")
     report = refresh(session, site)
     assert report.status == "refreshed" and report.ingest.status == "unchanged"  # same dump content
-    assert "MAIN" in site.requests
+    assert "PLANS" in site.requests
 
 
 def test_force_refreshes_despite_unchanged_footer(session, csv_bytes):
