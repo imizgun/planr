@@ -39,8 +39,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "1MB",
+                  "maximumError": "2MB"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -54,6 +54,17 @@
               "optimization": false,
               "extractLicenses": false,
               "sourceMap": true
+            },
+            "mock": {
+              "optimization": false,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "fileReplacements": [
+                {
+                  "replace": "src/app/api-interceptors.ts",
+                  "with": "src/app/mocks/api-interceptors.mock.ts"
+                }
+              ]
             }
           },
           "defaultConfiguration": "production"
@@ -66,9 +77,15 @@
             },
             "development": {
               "buildTarget": "frontend:build:development"
+            },
+            "mock": {
+              "buildTarget": "frontend:build:mock"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "options": {
+            "proxyConfig": "proxy.conf.json"
+          }
         },
         "test": {
           "builder": "@angular/build:unit-test"
