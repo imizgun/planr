@@ -5,7 +5,7 @@ Alternative frontend for the MFI faculty schedule. This repository currently con
 ## Structure
 
 - `backend/` – Python / FastAPI / PostgreSQL (SQLAlchemy 2, Alembic)
-- `frontend/` – TBA
+- `frontend/` – Angular
 
 ### Backend layout
 
@@ -18,7 +18,9 @@ Alternative frontend for the MFI faculty schedule. This repository currently con
 
 ## Running
 
-Prerequisites: Python 3.11+, PostgreSQL 14+.
+Prerequisites: Python 3.11+, PostgreSQL 14+ [FONTEND DEPS TBA].
+
+### Native start
 
 ```bash
 cd backend
@@ -26,14 +28,23 @@ python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 cp .env.example .env            # adjust PLANR_DATABASE_URL
 
-alembic upgrade head            # create the schema (single initial migration until first deployment)
-python -m app.cli fetch         # download the main plan (`…&format=csv`) and ingest it
-python -m app.cli ingest-file tests/fixtures/main_plan.csv   # offline alternative
-uvicorn app.main:app --reload   # API on http://localhost:8000 (docs: /docs)
+alembic upgrade head            # create db schema
+python -m app.cli fetch         # download schedule and ingest it (first run / update)
+uvicorn app.main:app --reload   # API on http://localhost:8000
+
+cd ../frontend
+ng serve
 ```
 
+### Docker start
+
+```bash
+docker compose up -d
+docker compose --profile tools up -d # download schedule and ingest it (first run / update)
+```
 
 TODO:
+
 - Current time marker
 - Facultatives support
 - Timeline

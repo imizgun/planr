@@ -1,0 +1,76 @@
+name: planr
+
+x-backend: &backend
+  build: ./backend
+  image: planr-backend
+  env_file:
+    - path: ./.env.backend # optional PLANR_* overrides (e.g. PLANR_SOURCE_SITES, PLANR_TIMEZONE)
+      required: false
+  environment:
+    PLANR_DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-planr}:${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}@db:5432/${POSTGRES_DB:-planr}
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-planr}
+      POSTGRES_USER: ${POSTGRES_USER:-planr}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  migrate:
+    <<: *backend
+    command: ["alembic", "upgrade", "head"]
+    restart: "no"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  api:
+    <<: *backend
+    command:
+      [
+        "uvicorn",
+        "app.main:app",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "8000",
+        "--proxy-headers",
+        "--forwarded-allow-ips",
+        "*",
+      ]
+    restart: unless-stopped
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+  nginx:
+    build: ./frontend
+    image: planr-nginx
+    restart: unless-stopped
+    ports:
+      - "${HTTP_PORT:-8080}:8080"
+    depends_on:
+      api:
+        condition: service_healthy
+
+  # On-demand data refresh:  docker compose run --rm fetch   [--force]
+  fetch:
+    <<: *backend
+    profiles: ["tools"]
+    command: ["python", "-m", "app.cli", "fetch"]
+    restart: "no"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+volumes:
+  db_data:
