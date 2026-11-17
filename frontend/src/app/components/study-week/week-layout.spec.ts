@@ -1,5 +1,5 @@
 import { ScheduleItem } from '../../models/schedule';
-import { hourRange, placeDayItems } from './week-layout';
+import { cardDensity, hourRange, placeDayItems, slotGeometry } from './week-layout';
 
 function lesson(id: string, start_time: string, end_time: string): ScheduleItem {
     return { id, effective: { start_time, end_time } } as ScheduleItem;
@@ -59,7 +59,7 @@ describe('placeDayItems', () => {
 
     it('keeps a minimum height for items with a malformed end time', () => {
         const [placed] = placeDayItems([lesson('a', '08:00', '08:00')]);
-        expect(placed.end - placed.start).toBe(30);
+        expect(placed.end - placed.start).toBe(40);
     });
 });
 
@@ -70,5 +70,49 @@ describe('hourRange', () => {
 
     it('widens to whole hours around outlying items', () => {
         expect(hourRange([lesson('a', '07:30', '20:15')])).toEqual({ startHour: 7, endHour: 21 });
+    });
+});
+
+describe('slotGeometry', () => {
+    it('gives a lone item the whole day', () => {
+        expect(slotGeometry(0, 1)).toEqual({ left: 0, width: 100, staggered: false });
+    });
+
+    it('splits the width between two items', () => {
+        expect(slotGeometry(0, 2)).toEqual({ left: 0, width: 50, staggered: false });
+        expect(slotGeometry(1, 2)).toEqual({ left: 50, width: 50, staggered: false });
+    });
+
+    it('staggers three or more items instead of narrowing them further', () => {
+        expect(slotGeometry(0, 3)).toEqual({ left: 0, width: 60, staggered: true });
+        expect(slotGeometry(1, 3)).toEqual({ left: 20, width: 60, staggered: true });
+        expect(slotGeometry(2, 3)).toEqual({ left: 40, width: 60, staggered: true });
+    });
+
+    it('keeps the last staggered card inside the day', () => {
+        const last = slotGeometry(3, 4);
+        expect(last.left + last.width).toBe(100);
+    });
+});
+
+describe('cardDensity', () => {
+    it('keeps the name and the time in the shortest slots', () => {
+        expect(cardDensity(40, false)).toBe('xs');
+        expect(cardDensity(45, false)).toBe('xs');
+    });
+
+    it('adds the room, then the type, as the slot gets longer', () => {
+        expect(cardDensity(60, false)).toBe('sm');
+        expect(cardDensity(75, false)).toBe('md');
+        expect(cardDensity(90, false)).toBe('lg');
+    });
+
+    it('shows everything once a slot is long enough for the teacher', () => {
+        expect(cardDensity(120, false)).toBe('full');
+        expect(cardDensity(180, false)).toBe('full');
+    });
+
+    it('leaves the teacher out of a narrow column whatever its length', () => {
+        expect(cardDensity(180, true)).toBe('lg');
     });
 });

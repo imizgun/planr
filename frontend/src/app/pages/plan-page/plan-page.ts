@@ -9,8 +9,23 @@ import { Select } from 'primeng/select';
 import { SelectButton } from 'primeng/selectbutton';
 import { StudyWeek } from '../../components/study-week/study-week';
 import { ViewMode } from '../../models/schedule';
+import { toIsoDate } from '../../models/week';
 import { PlanSettings } from '../../services/plan-settings';
 import { ScheduleApi, ScheduleQuery } from '../../services/schedule-api';
+
+interface ElectiveOption {
+    /** Query value: `<courseId>:<groupId>`, or a bare `<courseId>` for courses without groups. */
+    value: string;
+    /** Shown in the list, under the course heading. */
+    label: string;
+    /** Full name, used for filtering and in the field once selected. */
+    title: string;
+}
+
+interface ElectiveOptionGroup {
+    label: string;
+    items: ElectiveOption[];
+}
 
 @Component({
     imports: [
@@ -50,9 +65,46 @@ export class PlanPage {
         return this.settings.groupIds().filter((id) => known.has(id));
     });
 
+    /** One heading per elective course with its groups; courses without groups share a heading. */
+    protected readonly electiveOptions = computed<ElectiveOptionGroup[]>(() => {
+        const electives = this.program()?.electives ?? [];
+        const withGroups = electives
+            .filter((course) => course.groups.length)
+            .map((course) => ({
+                label: course.name,
+                items: course.groups.map((group) => ({
+                    value: `${course.id}:${group.id}`,
+                    label: group.label,
+                    title: `${course.name} (${group.label})`,
+                })),
+            }));
+        const withoutGroups = electives
+            .filter((course) => !course.groups.length)
+            .map((course) => ({ value: course.id, label: course.name, title: course.name }));
+        return withoutGroups.length
+            ? [...withGroups, { label: 'Bez podziału na grupy', items: withoutGroups }]
+            : withGroups;
+    });
+
+    /** Stored electives that are still offered by the current program. */
+    protected readonly electiveIds = computed(() => {
+        const known = new Set(
+            this.electiveOptions().flatMap((group) => group.items.map((item) => item.value)),
+        );
+        return this.settings.electives().filter((value) => known.has(value));
+    });
+
     private readonly query = computed<ScheduleQuery | undefined>(() => {
         const program = this.program();
-        return program ? { program: program.id, groups: this.groupIds() } : undefined;
+        return program
+            ? {
+                  program: program.id,
+                  groups: this.groupIds(),
+                  electives: this.electiveIds(),
+                  from: toIsoDate(this.settings.weekStart()),
+                  to: toIsoDate(this.settings.weekEnd()),
+              }
+            : undefined;
     });
 
     protected readonly schedule = this.api.schedule(this.query);

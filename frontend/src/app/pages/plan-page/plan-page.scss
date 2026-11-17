@@ -19,6 +19,11 @@
     max-width: 28rem;
 }
 
+.elective-select {
+    min-width: 12rem;
+    max-width: 22rem;
+}
+
 .spacer {
     flex: 1;
 }
@@ -50,7 +55,8 @@
         width: 100%;
     }
 
-    .group-select {
+    .group-select,
+    .elective-select {
         flex: 1 1 8rem;
         min-width: 0;
         max-width: none;

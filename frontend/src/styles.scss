@@ -1,5 +1,11 @@
 @import 'primeicons/primeicons.css';
 
+// Lets a card's height animate between its slot height and the unfolded 'auto'.
+// Browsers without it simply snap the height; everything else still animates.
+:root {
+    interpolate-size: allow-keywords;
+}
+
 html,
 body {
     margin: 0;
@@ -12,4 +18,12 @@ body {
         sans-serif;
     background: var(--p-surface-50);
     color: var(--p-text-color);
+}
+
+// Long elective names wrap instead of stretching the panel past the screen edge.
+.elective-panel {
+    .p-multiselect-option,
+    .p-multiselect-option-group {
+        white-space: normal;
+    }
 }

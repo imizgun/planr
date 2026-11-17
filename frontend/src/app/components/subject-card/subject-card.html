@@ -1,70 +1,78 @@
 @let it = item();
-@let eff = it.effective;
 
 <div class="header">
-    <div class="course">{{ it.course.name }}</div>
-    @if (timePatched()) {
-        <i
-            class="pi pi-clock time-patched-icon"
-            [pTooltip]="
-                'Godziny zmienione na podstawie uwag w planie: ' +
-                eff.start_time +
-                '–' +
-                eff.end_time
-            "
-            tooltipPosition="top"
-        ></i>
-    }
-    @if (it.remark.raw) {
-        <i
-            class="pi pi-info-circle remark-icon"
-            [pTooltip]="it.remark.raw"
-            tooltipPosition="top"
-        ></i>
+    <span class="time">{{ time() }}</span>
+    <span class="header-spacer"></span>
+    @if (!isDetail()) {
+        @if (dateRange()) {
+            <i
+                class="pi pi-calendar date-range-icon"
+                [pTooltip]="'Zajęcia ' + dateRange()"
+                tooltipPosition="top"
+            ></i>
+        }
+        @if (timePatched()) {
+            <i
+                class="pi pi-clock time-patched-icon"
+                [pTooltip]="'Godziny zmienione na podstawie uwag w planie: ' + time()"
+                tooltipPosition="top"
+            ></i>
+        }
+        @if (it.remark.raw) {
+            <i
+                class="pi pi-info-circle remark-icon"
+                [pTooltip]="it.remark.raw"
+                tooltipPosition="top"
+            ></i>
+        }
     }
 </div>
 
-<div class="tags">
-    @if (it.type) {
-        <p-tag [value]="it.type" [severity]="typeSeverity()" />
-    }
-    @if (it.group && !it.group.program_wide && it.group.label) {
-        <p-tag [value]="it.group.label" severity="secondary" />
-    }
-    @if (isRemote()) {
-        <p-tag value="zdalnie" severity="danger" icon="pi pi-wifi" />
-    }
-</div>
+<div class="course">{{ it.course.name }}</div>
+
+@if (isDetail() && timePatched()) {
+    <p class="patched-note">
+        <i class="pi pi-clock"></i>
+        Godziny zmienione na podstawie uwag w planie.
+    </p>
+}
+
+@if (hasTags()) {
+    <div class="tags">
+        @if (it.type) {
+            <p-tag [value]="it.type" [severity]="typeSeverity()" />
+        }
+        @if (groupLabel()) {
+            <p-tag [value]="groupLabel()!" severity="secondary" />
+        }
+        @if (isRemote()) {
+            <p-tag value="zdalnie" severity="danger" icon="pi pi-wifi" />
+        }
+    </div>
+}
 
 <dl class="details">
-    @if (teachers()) {
-        <div>
-            <i class="pi pi-user"></i>
-            <dd>{{ teachers() }}</dd>
-        </div>
-    }
     @if (it.room) {
-        <div>
+        <div class="room">
             <i class="pi pi-map-marker"></i>
             <dd>{{ it.room }}</dd>
         </div>
     }
-    @if (eff.date_from || eff.date_to) {
+    @if (teachers()) {
+        <div class="teacher">
+            <i class="pi pi-user"></i>
+            <dd>{{ teachers() }}</dd>
+        </div>
+    }
+    @if (isDetail() && dateRange()) {
         <div>
             <i class="pi pi-calendar"></i>
-            <dd>
-                @if (eff.date_from) {
-                    od {{ eff.date_from | date: 'd.MM' }}
-                }
-                @if (eff.date_to) {
-                    do {{ eff.date_to | date: 'd.MM' }}
-                }
-            </dd>
+            <dd>{{ dateRange() }}</dd>
         </div>
     }
 </dl>
 
-@if (viewMode() === 'annotated') {
+@if (showAnnotations()) {
     <div class="annotations">
         @if (it.remark.raw) {
             <p class="remark" [class.needs-review]="it.remark.needs_review">{{ it.remark.raw }}</p>
