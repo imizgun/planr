@@ -16,13 +16,39 @@
         optionLabel="label"
         optionValue="id"
         [ngModel]="groupIds()"
-        (ngModelChange)="settings.groupIds.set($event)"
+        (ngModelChange)="settings.setGroups($event)"
         [disabled]="!program()"
         [showToggleAll]="false"
-        display="chip"
+        [maxSelectedLabels]="3"
+        selectedItemsLabel="Grupy: {0}"
         placeholder="Grupy"
         class="group-select"
     />
+    @if (electiveOptions().length) {
+        <p-multiselect
+            [options]="electiveOptions()"
+            [group]="true"
+            optionGroupLabel="label"
+            optionGroupChildren="items"
+            optionLabel="title"
+            optionValue="value"
+            [ngModel]="electiveIds()"
+            (ngModelChange)="settings.setElectives($event)"
+            [filter]="true"
+            filterBy="title"
+            [showToggleAll]="false"
+            [maxSelectedLabels]="1"
+            selectedItemsLabel="Fakultatywne: {0}"
+            scrollHeight="20rem"
+            appendTo="body"
+            [panelStyle]="{ width: 'min(28rem, calc(100vw - 1rem))' }"
+            panelStyleClass="elective-panel"
+            placeholder="Fakultatywne"
+            class="elective-select"
+        >
+            <ng-template #item let-option>{{ option.label }}</ng-template>
+        </p-multiselect>
+    }
     <span class="spacer"></span>
     <p-selectbutton
         [options]="viewModes"
@@ -46,6 +72,9 @@
     <app-study-week
         [items]="schedule.value().items"
         [viewMode]="settings.viewMode()"
+        [weekStart]="settings.weekStart()"
+        (weekStep)="settings.stepWeek($event)"
+        (todayRequested)="settings.showCurrentWeek()"
         [class.reloading]="schedule.isLoading()"
     />
     <footer class="source">

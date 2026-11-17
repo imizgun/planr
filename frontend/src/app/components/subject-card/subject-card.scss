@@ -3,6 +3,12 @@
     --p-tag-font-size: 0.75rem;
     --p-tag-padding: 0.125rem 0.375rem;
 
+    // Parts a card gives up when its slot is too short, in the order they go.
+    --teacher-display: flex;
+    --tags-display: flex;
+    --room-display: flex;
+    --course-lines: 2;
+
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
@@ -13,6 +19,16 @@
     border-radius: var(--p-content-border-radius);
     background: var(--p-content-background);
     font-size: 0.8125rem;
+}
+
+/**
+ * A card is cut by a slot it does not fit, never squeezed into it. Flex items with
+ * `overflow: hidden`, the name among them, may otherwise shrink below their content and
+ * collapse to nothing, and a card that shrinks instead of overflowing cannot measure
+ * whether it fits.
+ */
+:host > * {
+    flex: none;
 }
 
 :host([data-type='wykład']) {
@@ -28,10 +44,74 @@
     --accent: var(--p-surface-700);
 }
 
+:host([data-density='lg']) {
+    --teacher-display: none;
+}
+
+:host([data-density='md']) {
+    --teacher-display: none;
+    --tags-display: none;
+}
+
+:host([data-density='sm']) {
+    --teacher-display: none;
+    --tags-display: none;
+    --room-display: none;
+}
+
+:host([data-density='xs']) {
+    --teacher-display: none;
+    --tags-display: none;
+    --room-display: none;
+    --course-lines: 1;
+}
+
+// The dialog supplies the frame, so the card keeps only the colour stripe of its type.
+:host([data-density='detail']) {
+    --course-lines: none;
+
+    gap: 0.5rem;
+    overflow: visible;
+    padding: 0 0 0 0.75rem;
+    border: 0;
+    border-left: 4px solid var(--accent);
+    border-radius: 0;
+    background: none;
+    font-size: 0.875rem;
+
+    .time {
+        color: var(--p-text-color);
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .course {
+        font-size: 1.0625rem;
+    }
+}
+
 .header {
     display: flex;
     gap: 0.25rem;
-    align-items: baseline;
+    align-items: center;
+}
+
+.header-spacer {
+    flex: 1;
+}
+
+.time {
+    // Keeps its width in a narrow column; the icons beside it are the ones to give way.
+    flex: none;
+    color: var(--p-text-muted-color);
+    font-size: 0.75rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.date-range-icon {
+    color: var(--p-text-muted-color);
+    cursor: help;
 }
 
 .remark-icon {
@@ -45,7 +125,11 @@
 }
 
 .course {
-    flex: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--course-lines);
+    line-clamp: var(--course-lines);
+    overflow: hidden;
     min-width: 0;
     font-size: 0.9rem;
     font-weight: 600;
@@ -53,8 +137,17 @@
     overflow-wrap: anywhere;
 }
 
-.tags {
+.patched-note {
     display: flex;
+    gap: 0.375rem;
+    align-items: baseline;
+    margin: 0;
+    color: var(--p-orange-600);
+    font-size: 0.8125rem;
+}
+
+.tags {
+    display: var(--tags-display);
     flex-wrap: wrap;
     gap: 0.25rem;
 }
@@ -79,10 +172,20 @@
     dd {
         margin: 0;
     }
+
+    .room {
+        display: var(--room-display);
+    }
+
+    // The longest line of the card, and the first one a short slot has to give up.
+    .teacher {
+        display: var(--teacher-display);
+    }
 }
 
+// Remarks go with the teacher: both are the first things a short card gives up.
 .annotations {
-    display: flex;
+    display: var(--teacher-display);
     flex-direction: column;
     gap: 0.25rem;
     padding-top: 0.375rem;
@@ -103,4 +206,21 @@
     gap: 0.375rem;
     align-items: center;
     color: var(--p-text-muted-color);
+}
+
+// Hovering the slot unfolds the card, so a shortened one shows all of its content.
+@media (hover: hover) {
+    :host-context(.slot:hover) {
+        --teacher-display: flex;
+        --tags-display: flex;
+        --room-display: flex;
+        --course-lines: none;
+    }
+}
+
+:host-context(.slot:focus-visible) {
+    --teacher-display: flex;
+    --tags-display: flex;
+    --room-display: flex;
+    --course-lines: none;
 }

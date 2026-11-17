@@ -14,6 +14,37 @@
     </div>
 </ng-template>
 
+<nav class="week-nav">
+    <p-button
+        icon="pi pi-chevron-left"
+        [rounded]="true"
+        [text]="true"
+        severity="secondary"
+        ariaLabel="Poprzedni tydzień"
+        (onClick)="weekStep.emit(-1)"
+    />
+    <span class="week-label">{{ weekLabel() }}</span>
+    <p-button
+        icon="pi pi-chevron-right"
+        [rounded]="true"
+        [text]="true"
+        severity="secondary"
+        ariaLabel="Następny tydzień"
+        (onClick)="weekStep.emit(1)"
+    />
+    @if (!currentWeek()) {
+        <p-button
+            label="Dziś"
+            icon="pi pi-replay"
+            size="small"
+            [rounded]="true"
+            [text]="true"
+            ariaLabel="Wróć do bieżącego tygodnia"
+            (onClick)="goToToday()"
+        />
+    }
+</nav>
+
 <div
     class="week"
     [style.--days]="days().length"
@@ -27,28 +58,51 @@
         <section
             class="day"
             [class.today]="day.weekday === highlightedDay()"
-            [class.active]="day.weekday === activeDay().weekday"
+            [class.active]="day.weekday === activeDay()"
         >
             <h3 class="day-title">
-                <span>
-                    {{ day.label
-                    }}<span class="phone-date">, {{ activeDate() | date: 'd.MM' }}</span>
+                <p-button
+                    class="day-nav"
+                    icon="pi pi-chevron-left"
+                    [rounded]="true"
+                    [text]="true"
+                    severity="secondary"
+                    ariaLabel="Poprzedni dzień"
+                    (onClick)="step(-1)"
+                />
+                <span class="day-name">{{ day.label }}</span>
+                <span class="day-date" [class.is-today]="day.weekday === highlightedDay()">
+                    {{ day.date | date: 'd.MM' }}
                 </span>
-                @if (day.weekday === highlightedDay()) {
-                    <span class="today-date">{{ now() | date: 'd.MM' }}</span>
-                }
+                <p-button
+                    class="day-nav"
+                    icon="pi pi-chevron-right"
+                    [rounded]="true"
+                    [text]="true"
+                    severity="secondary"
+                    ariaLabel="Następny dzień"
+                    (onClick)="step(1)"
+                />
             </h3>
             <div class="day-body">
                 @for (slot of day.slots; track slot.item.id) {
-                    <div
+                    <button
+                        type="button"
                         class="slot"
+                        [class.staggered]="slot.staggered"
                         [style.top.%]="slot.top"
-                        [style.left.%]="slot.left"
-                        [style.width.%]="slot.width"
+                        [style.--slot-layer]="slot.column + 1"
+                        [style.--slot-left]="slot.left + '%'"
+                        [style.--slot-width]="slot.width + '%'"
                         [style.--slot-height]="slot.height + '%'"
+                        (click)="openCard(slot.item)"
                     >
-                        <app-subject-card [item]="slot.item" [viewMode]="viewMode()" />
-                    </div>
+                        <app-subject-card
+                            [item]="slot.item"
+                            [viewMode]="viewMode()"
+                            [density]="slot.density"
+                        />
+                    </button>
                 } @empty {
                     <span class="empty">Brak zajęć</span>
                 }
@@ -64,3 +118,37 @@
     }
     <ng-container [ngTemplateOutlet]="rail" />
 </div>
+
+<!-- Outside the week, so that a gesture starting on the button is not read as a swipe. -->
+@if (movedAway()) {
+    <p-button
+        class="today-jump"
+        label="Dziś"
+        icon="pi pi-replay"
+        size="small"
+        [rounded]="true"
+        [raised]="true"
+        ariaLabel="Wróć do dzisiejszego dnia"
+        (onClick)="goToToday()"
+    />
+}
+
+<p-dialog
+    [visible]="openedItem() !== null"
+    (visibleChange)="onDialogVisibleChange($event)"
+    [modal]="true"
+    [dismissableMask]="true"
+    [draggable]="false"
+    [resizable]="false"
+    appendTo="body"
+    [style]="{ width: 'min(30rem, calc(100vw - 2rem))' }"
+>
+    <ng-template #header>
+        <span class="dialog-title">
+            {{ openedLabel() }}<span class="dialog-date">, {{ openedDate() | date: 'd.MM' }}</span>
+        </span>
+    </ng-template>
+    @if (openedItem(); as item) {
+        <app-subject-card [item]="item" [viewMode]="viewMode()" density="detail" />
+    }
+</p-dialog>

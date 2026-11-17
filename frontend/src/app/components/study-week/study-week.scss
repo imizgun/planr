@@ -1,6 +1,16 @@
 $now-color: var(--p-red-500);
 $hour-tick-overhang: -0.625rem;
 
+// Unfolding a card on hover or focus: height, place and shadow move together.
+$unfold-duration: 160ms;
+$unfold-easing: ease-out;
+$unfold-delay: 90ms;
+$unfold-transition:
+    height $unfold-duration $unfold-easing,
+    width $unfold-duration $unfold-easing,
+    left $unfold-duration $unfold-easing;
+$unfold-shadow: 0 0.375rem 1rem rgb(0 0 0 / 18%);
+
 .week {
     --hour-height: 5rem;
 
@@ -62,25 +72,71 @@ $hour-tick-overhang: -0.625rem;
 
 .day-title {
     display: flex;
-    justify-content: space-between;
+    gap: 0.375rem;
+    justify-content: center;
     align-items: center;
     margin: 0;
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 0.5rem;
     font-size: 0.95rem;
     font-weight: 600;
 }
 
-.phone-date {
+.day-name {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.day-nav,
+.today-jump {
     display: none;
 }
 
-.today-date {
+.week-nav {
+    display: flex;
+    gap: 0.25rem;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.week-label {
+    min-width: 11rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    text-align: center;
+}
+
+// Floats over the schedule, out of reach of the day arrows, and only while the view is away.
+@media (max-width: 768px) {
+    .today-jump {
+        position: fixed;
+        right: 1rem;
+        bottom: 1rem;
+        z-index: 50;
+        display: block;
+    }
+}
+
+.dialog-title {
+    font-weight: 600;
+}
+
+.dialog-date {
+    font-variant-numeric: tabular-nums;
+}
+
+.day-date {
     padding: 0 0.375rem;
     border-radius: 0.25rem;
-    background: $now-color;
-    color: var(--p-red-contrast-color, #fff);
+    color: var(--p-text-muted-color);
     font-size: 0.8125rem;
     font-variant-numeric: tabular-nums;
+
+    &.is-today {
+        background: $now-color;
+        color: var(--p-red-contrast-color, #fff);
+    }
 }
 
 .day-body {
@@ -104,21 +160,80 @@ $hour-tick-overhang: -0.625rem;
 
 .slot {
     position: absolute;
+    // A plain z-index would be an inline style, which the unfolded card could not outrank.
+    z-index: var(--slot-layer);
+    left: var(--slot-left);
+    // A button would centre its content; the card has to fill the slot instead.
     display: flex;
+    align-items: stretch;
     box-sizing: border-box;
+    width: var(--slot-width);
     height: var(--slot-height);
+    margin: 0;
     padding: 1px 2px;
+    border: 0;
+    border-radius: var(--p-content-border-radius);
+    background: none;
+    color: inherit;
+    font: inherit;
+    text-align: start;
+    cursor: pointer;
+    transition: $unfold-transition;
 
     app-subject-card {
         flex: 1;
         min-width: 0;
+        transition: box-shadow $unfold-duration $unfold-easing;
     }
 
-    // A card clipped by its duration unfolds to show the rest of its content.
-    &:hover {
-        z-index: 3;
+    // A card clipped by its duration or width unfolds to show the rest of its content,
+    // over its neighbours and over the current-time line.
+    &:focus-visible {
+        z-index: 45;
         height: auto;
         min-height: var(--slot-height);
+        outline: 2px solid var(--p-primary-color);
+        outline-offset: 1px;
+    }
+
+    // Overlapping cards take the full width while unfolded, so nothing stays hidden.
+    &.staggered:focus-visible {
+        left: 0;
+        width: 100%;
+    }
+
+    &:focus-visible app-subject-card {
+        box-shadow: $unfold-shadow;
+    }
+}
+
+// Touch devices keep a stale :hover after a tap, so unfolding is left to pointers.
+@media (hover: hover) {
+    .slot:hover {
+        z-index: 45;
+        height: auto;
+        min-height: var(--slot-height);
+        // A pointer sweeping across the grid should not unfold every card on its way.
+        transition-delay: $unfold-delay;
+    }
+
+    .slot.staggered:hover {
+        left: 0;
+        width: 100%;
+    }
+
+    .slot:hover app-subject-card {
+        box-shadow: $unfold-shadow;
+        transition-delay: $unfold-delay;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .slot,
+    .slot:hover,
+    .slot app-subject-card,
+    .slot:hover app-subject-card {
+        transition: none;
     }
 }
 
@@ -136,7 +251,7 @@ $hour-tick-overhang: -0.625rem;
     position: absolute;
     right: 0;
     left: 0;
-    z-index: 2;
+    z-index: 40;
     border-top: 1px dashed color-mix(in srgb, #{$now-color} 45%, transparent);
     pointer-events: none;
 
@@ -175,14 +290,28 @@ $hour-tick-overhang: -0.625rem;
         touch-action: pan-y pinch-zoom;
     }
 
+    // A whole week at a time is a desktop affair; a phone steps through days and swipes.
     .rail:last-child,
     .day:not(.active),
-    .today-date {
+    .week-nav {
         display: none;
     }
 
-    .phone-date {
-        display: inline;
+    .day-title {
+        padding: 0.25rem;
+    }
+
+    .day-nav {
+        display: block;
+
+        // The arrows take the edges; the day and its date stay in the middle.
+        &:first-of-type {
+            margin-right: auto;
+        }
+
+        &:last-of-type {
+            margin-left: auto;
+        }
     }
 
     .day-body::before {

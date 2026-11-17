@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { ScheduleItem } from '../../models/schedule';
+import { startOfWeek } from '../../models/week';
 import { StudyWeek } from './study-week';
 
 const ITEM: ScheduleItem = {
@@ -34,11 +35,45 @@ describe('StudyWeek', () => {
 
         fixture = TestBed.createComponent(StudyWeek);
         fixture.componentRef.setInput('items', [ITEM]);
+        // Monday of the week the test's item belongs to.
+        fixture.componentRef.setInput('weekStart', startOfWeek(new Date()));
         component = fixture.componentInstance;
         await fixture.whenStable();
     });
 
     it('should create', () => {
         expect(component).toBeTruthy();
+    });
+
+    it('opens the details of a clicked card', async () => {
+        fixture.nativeElement.querySelector('.slot').click();
+        await fixture.whenStable();
+
+        const card = document.querySelector('.p-dialog app-subject-card');
+        expect(card?.getAttribute('data-density')).toBe('detail');
+        expect(card?.textContent).toContain('Analiza matematyczna');
+    });
+
+    it('offers a way back once the view moves to another day', async () => {
+        expect(fixture.nativeElement.querySelector('.today-jump')).toBeNull();
+
+        fixture.nativeElement.querySelector('.day-title .day-nav button').click();
+        await fixture.whenStable();
+
+        const back = fixture.nativeElement.querySelector('.today-jump button');
+        expect(back).not.toBeNull();
+
+        back.click();
+        await fixture.whenStable();
+        expect(fixture.nativeElement.querySelector('.today-jump')).toBeNull();
+    });
+
+    it('shortens a card that does not fit its slot', async () => {
+        const short = { ...ITEM, effective: { ...ITEM.effective, end_time: '08:45' } };
+        fixture.componentRef.setInput('items', [short]);
+        await fixture.whenStable();
+
+        const card = fixture.nativeElement.querySelector('app-subject-card');
+        expect(card.getAttribute('data-density')).toBe('xs');
     });
 });
