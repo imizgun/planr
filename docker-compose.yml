@@ -19,6 +19,8 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
     volumes:
       - db_data:/var/lib/postgresql/data
+    networks:
+      - database
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
       interval: 5s
@@ -32,6 +34,8 @@ services:
     depends_on:
       db:
         condition: service_healthy
+    networks:
+      - database
 
   api:
     <<: *backend
@@ -51,6 +55,9 @@ services:
     depends_on:
       migrate:
         condition: service_completed_successfully
+    networks:
+      - database
+      - frontend
 
   nginx:
     build: ./frontend
@@ -61,6 +68,9 @@ services:
     depends_on:
       api:
         condition: service_healthy
+    networks:
+      - frontend
+      - ingress
 
   # On-demand data refresh:  docker compose run --rm fetch   [--force]
   fetch:
@@ -71,6 +81,24 @@ services:
     depends_on:
       migrate:
         condition: service_completed_successfully
+    networks:
+      - database
+      - egress
+
+networks:
+  frontend:
+    driver: bridge
+    internal: true
+
+  database:
+    driver: bridge
+    internal: true
+
+  egress:
+    driver: bridge
+
+  ingress:
+    driver: bridge
 
 volumes:
   db_data:
