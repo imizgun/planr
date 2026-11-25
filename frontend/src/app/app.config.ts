@@ -11,6 +11,10 @@ import { PlanrPreset } from './config/theme';
 
 registerLocaleData(localePl);
 
+/** PrimeUI community license key (client-side, ships in the bundle by design). */
+const PRIMEUI_LICENSE =
+    'eyJpZCI6IjBlNzJhY2UwLWUzNWYtNGJiNi04NWQ1LTliNGJhYmYxOTc4MSIsInByb2R1Y3QiOiJwcmltZXVpIiwidGllciI6ImNvbW11bml0eSIsInR5cGUiOiJkZXYiLCJpYXQiOjE3OTUxODIxNjgsImV4cCI6MTgyNjcxODE2OH0.jJSX7CECVGoliM0JcR3-KhxyPzDb7iRieRo5x-TQGP5UtbnIu5LNXKTcyMV75CTvKHe3u2EQSd1HbOaq-heBBQ';
+
 export const appConfig: ApplicationConfig = {
     providers: [
         provideBrowserGlobalErrorListeners(),
@@ -20,6 +24,7 @@ export const appConfig: ApplicationConfig = {
         providePrimeNG({
             theme: { preset: PlanrPreset, options: { darkModeSelector: false } },
             translation: PRIMENG_PL,
+            license: PRIMEUI_LICENSE,
         }),
     ],
 };
